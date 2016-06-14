@@ -6,10 +6,10 @@ This translation is usefull for people living in the Iran (ایران).
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
 
 # Version & progress
-This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/fa#/Head) at Crowdin and based on the Magento 2.0.7 sourcefiles.
-There have been  4200 strings translated of the 7782 strings in the Magento source.
+This translation is generated from the branch [2.0.2](https://crowdin.com/project/magento-2/fa#/2.0.2) at Crowdin and based on the Magento 2.0.2 sourcefiles.
+There have been  4300 strings translated of the 7776 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/54)
+Translation progress:![Progress](http://progressed.io/bar/55)
 
 # Instalation
 ## Via composer
