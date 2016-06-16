@@ -841,6 +841,7 @@ Import,"وارد کردن",module,Magento_CurrencySymbol
 System,سيستم,module,Magento_CurrencySymbol
 "Old rate:","نرخ قدیم:",module,Magento_CurrencySymbol
 "Please enter a valid email.","لطفا یک ایمیل معتبر وارد نمایید.",module,Magento_CustomerImportExport
+"Sign In",ورود,module,Magento_Customer
 "You have not set a default shipping address.","شما آدرس ارسال پیش فرضی تنظیم نکرده‌اید.",module,Magento_Customer
 "You have not set a default billing address.","شما آدرس صورت حساب پیش فرضی تنظیم نکرده‌اید.",module,Magento_Customer
 "Address Book","کتاب آدرس",module,Magento_Customer
@@ -902,6 +903,7 @@ Download,دانلود,module,Magento_Customer
 "Group Information","اطلاعات گروه",module,Magento_Customer
 "Group Name","نام گروه",module,Magento_Customer
 "Tax Class","کلاس مالیات",module,Magento_Customer
+"The customer is now assigned to Customer Group %s.","این مشتری در حال حاضر به گروه %s تعلق دارد.",module,Magento_Customer
 "Would you like to change the Customer Group for this order?","آیا می خواهید به تغییر گروه مشتری برای این منظور?",module,Magento_Customer
 "The VAT ID entered (%s) is not a valid VAT ID.","شناسه ماليات وارد شده(%s) يك شناسه ماليات نامعتبر است.",module,Magento_Customer
 "The VAT ID is valid. The current Customer Group will be used.","شناسه مالياتي معتبر است. براي اين گروه مشتري مورد استفاده قرار خواهد گرفت.",module,Magento_Customer
@@ -918,6 +920,7 @@ Download,دانلود,module,Magento_Customer
 "Please enter your email.","لطفا ایمیل‌تان را وارد نمایید.",module,Magento_Customer
 "My Account","حساب من",module,Magento_Customer
 "Invalid login or password.","نامعتبر برای ورود اینجا و یا کلمه عبور.",module,Magento_Customer
+"A login and a password are required.","ورود و رمز عبور مورد نیاز است.",module,Magento_Customer
 Customers,مشتریان,module,Magento_Customer
 "New Group","گروه جدید",module,Magento_Customer
 "New Customer Groups","گروه‌های مشتری جدید",module,Magento_Customer
@@ -1002,6 +1005,7 @@ Password,"رمز عبور",module,Magento_Customer
 "General Subscription","اشتراک عمومی",module,Magento_Customer
 "Sign Up for Newsletter","ثبت نام برای خبرنامه",module,Magento_Customer
 "Address Information","اطلاعات آدرس",module,Magento_Customer
+"Sign-in Information","اطلاعات ورود",module,Magento_Customer
 "Confirm Password","تایید گذرواژه",module,Magento_Customer
 "Create an Account","ایجاد یک حساب",module,Magento_Customer
 "New Customers","مشتریان جدید",module,Magento_Customer
