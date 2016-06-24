@@ -1525,9 +1525,6 @@ Yes,بله,module,Magento_Payment
 No,خیر,module,Magento_Payment
 "Expiration Date","تاريخ انقضا",module,Magento_Payment
 "Card Verification Number","تاييد شماره كارت",module,Magento_Payment
-"Switch/Solo/Maestro Only","تنها Switch/Solo/Maestro",module,Magento_Payment
-"Issue Number","شماره موضوع",module,Magento_Payment
-"Start Date","تاریخ شروع",module,Magento_Payment
 "Please Select","لطفا انتخاب نمایید",module,Magento_Payment
 "--Please Select--","--لطفا انتخاب کنيد--",module,Magento_Payment
 "Card Verification Number Visual Reference","ارجاع دیداری شماره‌ی امنیتی کارت",module,Magento_Payment
