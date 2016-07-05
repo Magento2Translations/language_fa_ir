@@ -3,10 +3,15 @@
 "Are you sure?","شما اطمینان دارید؟",module,Magento_AdminNotification
 Remove,برداشتن,module,Magento_AdminNotification
 "Messages Inbox","صندوق پیام‌های دریافتی",module,Magento_AdminNotification
+"You have %1 new system messages","شما %1 پیام جدید دارید",module,Magento_AdminNotification
+"You have %1 new system message","شما %1 پیام جدید دارید",module,Magento_AdminNotification
 "Incoming Message","پیام ورودی",module,Magento_AdminNotification
 close,بستن,module,Magento_AdminNotification
 Notifications,اطلاعیه‌ها,module,Magento_AdminNotification
+"The message has been marked as Read.","پیام بعنوان خوانده شده علامتگذاری شده است.",module,Magento_AdminNotification
 "Please select messages.","لطفا پیام‌ها را انتخاب کنید.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","%1 اعلان به عنوان خوانده شده مشخص شده است.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","%1 اعلان حذف شده است.",module,Magento_AdminNotification
 "The message has been removed.","پیام برداشته شد.",module,Magento_AdminNotification
 "1 Hour","1 ساعت",module,Magento_AdminNotification
 "2 Hours","2 ساعت",module,Magento_AdminNotification
@@ -18,7 +23,18 @@ major,عمده,module,Magento_AdminNotification
 minor,جزئی,module,Magento_AdminNotification
 notice,توجه,module,Magento_AdminNotification
 "Wrong message type","نوع پيام نادرست",module,Magento_AdminNotification
+"Wrong notification ID specified.","شماره شناسه مشخص شده اشتباه است.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} برای استفاده در محیط تولید اعلام آدرس پایه نا امن توصیه نمی شود. ما به شدت توصیه میکنیم این مقدار را در بخش <a href=""%1""> پیکربندی مگنتو </a> تغییردهید.",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","لطفا برو به <a href=""%1""> مدیریت کش</a> و آنرا از نو بساز.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","ما قادر به همگام سازی یک یا چند فایل های رسانه ای نیستیم. لطفا برای جزئیات بیشتربه فایل وقایع مراحعه نمایید.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","همگام سازی ذخیره سازی رسانه ها کامل شده است.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","وب سرور شما نادرست است تنظیم و اجازه می دهد تا دسترسی های غیر مجاز به پرونده های حساس. با مدیر سرور خود تماس بگیرید.",module,Magento_AdminNotification
 Close,بستن,module,Magento_AdminNotification
+"System Messages:","پیامِ سیستم:",module,Magento_AdminNotification
+"Critical System Messages","پیام های مهم سیستمی",module,Magento_AdminNotification
+"Major System Messages","پیغام های سیستم عمده",module,Magento_AdminNotification
+"System messages","پیام سیستم",module,Magento_AdminNotification
+"See All (","دیدن همه",module,Magento_AdminNotification
 "There are no product types available for export","هيچ نوع محصول در دسترس براي صادرات وجود ندارد",module,Magento_AdvancedPricingImportExport
 authorize,"اجازه دادن",module,Magento_Authorizenet
 "authorize and capture","اجازه و گرفتن",module,Magento_Authorizenet
