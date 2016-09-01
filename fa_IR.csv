@@ -31,11 +31,11 @@ notice,توجه,module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","ما قادر به همگام سازی یک یا چند فایل های رسانه ای نیستیم. لطفا برای جزئیات بیشتربه فایل وقایع مراحعه نمایید.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","همگام سازی ذخیره سازی رسانه ها کامل شده است.",module,Magento_AdminNotification
 "Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","وب سرور شما نادرست است تنظیم و اجازه می دهد تا دسترسی های غیر مجاز به پرونده های حساس. با مدیر سرور خود تماس بگیرید.",module,Magento_AdminNotification
-Close,بستن,module,Magento_AdminNotification
 "System Messages:","پیامِ سیستم:",module,Magento_AdminNotification
 "Critical System Messages","پیام های مهم سیستمی",module,Magento_AdminNotification
 "Major System Messages","پیغام های سیستم عمده",module,Magento_AdminNotification
 "System messages","پیام سیستم",module,Magento_AdminNotification
+Close,بستن,module,Magento_AdminNotification
 "See All (","دیدن همه",module,Magento_AdminNotification
 "There are no product types available for export","هيچ نوع محصول در دسترس براي صادرات وجود ندارد",module,Magento_AdvancedPricingImportExport
 authorize,"اجازه دادن",module,Magento_Authorizenet
@@ -163,6 +163,7 @@ To,به,module,Magento_Backend
 "Date selector","گزینش گر تاریخ",module,Magento_Backend
 "[ deleted ]","[ حذف شده ]",module,Magento_Backend
 "Select All","انتخاب همه",module,Magento_Backend
+"We couldn't find any records.","هیچ اطلاعاتی یافت نشد.",module,Magento_Backend
 "Add New","افزودن جدید",module,Magento_Backend
 Export,صادرات,module,Magento_Backend
 "Please select items.","لطفا آیتم‌ها را انتخاب نمایید.",module,Magento_Backend
@@ -254,16 +255,14 @@ Exclude,استثنا,module,Magento_Backup
 "Create Backup","ايجاد پشتيبان",module,Magento_Backup
 Country,كشور,module,Magento_Braintree
 "Allowed Credit Card Types","انواع کارت‌های اعتباری مجاز",module,Magento_Braintree
-"Credit Card Type","نوع کارت اعتباري",module,Magento_Braintree
-"Credit Card Number","شماره کارت اعتباري",module,Magento_Braintree
-"Please agree to all the terms and conditions before placing the order.","لطفا پیش از دادن سفارش با همه‌ی این شرایط و ضوابط موافقت نمایید.",module,Magento_Braintree
 Authorize,اجازه,module,Magento_Braintree
 "Authorize and Capture","تصویب کردن و ضبط",module,Magento_Braintree
 "--Please Select--","--لطفا انتخاب کنيد--",module,Magento_Braintree
+"Please agree to all the terms and conditions before placing the order.","لطفا پیش از دادن سفارش با همه‌ی این شرایط و ضوابط موافقت نمایید.",module,Magento_Braintree
+"Credit Card Type","نوع کارت اعتباري",module,Magento_Braintree
+"Credit Card Number","شماره کارت اعتباري",module,Magento_Braintree
 "Expiration Date","تاريخ انقضا",module,Magento_Braintree
 "Card Verification Number","تاييد شماره كارت",module,Magento_Braintree
-"What is this?","اين چيست؟",module,Magento_Braintree
-Type,نوع,module,Magento_Braintree
 "Percent Discount","درصد تخفیف",module,Magento_Bundle
 "-- Select --","-- انتخاب --",module,Magento_Bundle
 Dynamic,پویا,module,Magento_Bundle
@@ -277,24 +276,30 @@ SKU,"کد کالا",module,Magento_Bundle
 Price,قيمت,module,Magento_Bundle
 Delete,حذف,module,Magento_Bundle
 "Use Default Value","از مقدار پیش فرض استفاده کنید",module,Magento_Bundle
-"As Low as","از حداقل",module,Magento_Bundle
 "Price Range","بازه‌ی قیمت",module,Magento_Bundle
+"As Low as","از حداقل",module,Magento_Bundle
+Together,"با هم",module,Magento_Bundle
+Separately,جداگانه,module,Magento_Bundle
 "Please specify product option(s).","لطفا گزینه(ها)ی محصول را مشخص نمایید.",module,Magento_Bundle
 Percent,درصد,module,Magento_Bundle
+Cancel,لغو,module,Magento_Bundle
+"Add Option","افزودن گزینه",module,Magento_Bundle
+"Option Title","عنوان گزینه",module,Magento_Bundle
+"Store View Title","عنوان نمای فروشگاه",module,Magento_Bundle
+"Input Type","نوع ورودی",module,Magento_Bundle
+Drop-down,کشویی,module,Magento_Bundle
+"Radio Buttons","دکمه‌های رادیویی",module,Magento_Bundle
+Checkbox,"چک باکس",module,Magento_Bundle
+"Multiple Select","چند انتخابی",module,Magento_Bundle
+Required,الزامی,module,Magento_Bundle
+Name,نام,module,Magento_Bundle
+"Price Type","نوع قیمت",module,Magento_Bundle
 None,"هیچ یک",module,Magento_Bundle
 Quantity:,تعداد:,module,Magento_Bundle
 "Choose a selection...","برگزیدن یک انتخاب...",module,Magento_Bundle
 "Ship Bundle Items","ارسال آیتم‌های دسته",module,Magento_Bundle
-Separately,جداگانه,module,Magento_Bundle
-Together,"با هم",module,Magento_Bundle
-"Option Title","عنوان گزینه",module,Magento_Bundle
-"Store View Title","عنوان نمای فروشگاه",module,Magento_Bundle
-"Input Type","نوع ورودی",module,Magento_Bundle
-Required,الزامی,module,Magento_Bundle
 Position,موقعيت,module,Magento_Bundle
 Default,"پیش فرض",module,Magento_Bundle
-Name,نام,module,Magento_Bundle
-"Price Type","نوع قیمت",module,Magento_Bundle
 Ordered,"سفارش داده شده",module,Magento_Bundle
 Invoiced,فاکتورشده,module,Magento_Bundle
 Shipped,"ارسال شده",module,Magento_Bundle
@@ -337,22 +342,20 @@ Always,هميشه,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","اجازه‌ی تعداد زیر 0 و اخطار به مشتری",module,Magento_CatalogInventory
 "In Stock","در موجودي",module,Magento_CatalogInventory
 "Out of Stock","موجود نیست",module,Magento_CatalogInventory
+"Stock Status","وضعيت موجودي",module,Magento_CatalogInventory
+Quantity,تعداد,module,Magento_CatalogInventory
 "Product Name","نام محصول",module,Magento_CatalogInventory
 Qty,تعداد,module,Magento_CatalogInventory
+"Delete Rule","حذف قانون",module,Magento_CatalogRule
+"Are you sure you want to do this?","آيا شما مطمئن به انجام اين كار هستيد؟",module,Magento_CatalogRule
+Reset,بازنشانی,module,Magento_CatalogRule
+"Save and Apply","ذخیره و اعمال",module,Magento_CatalogRule
+"Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_CatalogRule
+Save,ذخيره,module,Magento_CatalogRule
 "Catalog Price Rule","قانون قیمت کاتالوگ",module,Magento_CatalogRule
 "Add New Rule","افزودن قانون جدید",module,Magento_CatalogRule
 "Apply Rules","اعمال قوانین",module,Magento_CatalogRule
-"Save and Apply","ذخیره و اعمال",module,Magento_CatalogRule
-"Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_CatalogRule
-"New Rule","قانون جدید",module,Magento_CatalogRule
-"Rule Information","اطلاعات قانون",module,Magento_CatalogRule
-Actions,کنش‌ها,module,Magento_CatalogRule
-No,خیر,module,Magento_CatalogRule
-Yes,بله,module,Magento_CatalogRule
 Conditions,شرایط,module,Magento_CatalogRule
-Status,وضعيت,module,Magento_CatalogRule
-Active,فعال,module,Magento_CatalogRule
-Inactive,غیرفعال,module,Magento_CatalogRule
 ID,شناسه,module,Magento_CatalogRule
 Type,نوع,module,Magento_CatalogRule
 "Attribute Set","ست وظيفه",module,Magento_CatalogRule
@@ -361,6 +364,7 @@ Product,محصول,module,Magento_CatalogRule
 Promotions,تبلیغات,module,Magento_CatalogRule
 "This rule no longer exists.","این قانون دیگر وجود ندارد.",module,Magento_CatalogRule
 "Edit Rule","ویرایش قانون",module,Magento_CatalogRule
+"New Rule","قانون جدید",module,Magento_CatalogRule
 Catalog,فهرست,module,Magento_CatalogRule
 Promo,تبلیغ,module,Magento_CatalogRule
 "Update the Product","به روز رسانی محصول",module,Magento_CatalogRule
@@ -397,7 +401,8 @@ SKU,"کد کالا",module,Magento_CatalogWidget
 "Out of stock","در انبار موجود نیست",module,Magento_CatalogWidget
 "Add to Compare","افزودن به مقایسه",module,Magento_CatalogWidget
 Root,ریشه,module,Magento_Catalog
-Reset,بازنشانی,module,Magento_Catalog
+Delete,حذف,module,Magento_Catalog
+Save,ذخيره,module,Magento_Catalog
 "Use Config Settings","استفاده از تنظیمات پیکربندی",module,Magento_Catalog
 "Use All Available Attributes","استفاده از تمام ویژگی‌های در دسترس",module,Magento_Catalog
 ID,شناسه,module,Magento_Catalog
@@ -405,7 +410,6 @@ Name,نام,module,Magento_Catalog
 SKU,"کد کالا",module,Magento_Catalog
 Price,قيمت,module,Magento_Catalog
 Position,موقعيت,module,Magento_Catalog
-"Category Products","محصولات دسته",module,Magento_Catalog
 "Add Subcategory","افزودن زیردسته",module,Magento_Catalog
 "Add Root Category","افزودن دسته‌ی ریشه",module,Magento_Catalog
 Day,روز,module,Magento_Catalog
@@ -418,8 +422,9 @@ Year,سال,module,Magento_Catalog
 "Add Product","افزودن محصول",module,Magento_Catalog
 "Product Attributes","ویژگی‌های محصول",module,Magento_Catalog
 "Add New Attribute","افزودن ویژگی جدید",module,Magento_Catalog
-"Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_Catalog
+Cancel,لغو,module,Magento_Catalog
 "Save Attribute","ذخیره‌ی ویژگی",module,Magento_Catalog
+"Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_Catalog
 "Delete Attribute","حذف ویژگی",module,Magento_Catalog
 "New Product Attribute","ویژگی محصول جدید",module,Magento_Catalog
 "Attribute Code","کد ویژگی",module,Magento_Catalog
@@ -456,8 +461,7 @@ Comparable,"قابل مقایسه",module,Magento_Catalog
 "Delete Selected Group","حذف گروه انتخاب شده",module,Magento_Catalog
 "Add New","افزودن جدید",module,Magento_Catalog
 Back,بازگشت,module,Magento_Catalog
-Delete,حذف,module,Magento_Catalog
-Save,ذخيره,module,Magento_Catalog
+Reset,بازنشانی,module,Magento_Catalog
 "New Set Name","نام مجموعه‌ی جدید",module,Magento_Catalog
 Empty,خالی,module,Magento_Catalog
 "Add Attribute","افزودن ویژگی",module,Magento_Catalog
@@ -518,9 +522,9 @@ None,"هیچ یک",module,Magento_Catalog
 "New Products","محصولات جدید",module,Magento_Catalog
 "Click for price","برای قیمت کلیک کنید",module,Magento_Catalog
 "Special Products","محصولات ویژه",module,Magento_Catalog
-Categories,"دسته ها",module,Magento_Catalog
 "Manage Catalog Categories","مدیریت دسته‌های کاتالوگ",module,Magento_Catalog
 "Manage Categories","مدیریت دسته‌ها",module,Magento_Catalog
+Categories,"دسته ها",module,Magento_Catalog
 Catalog,فهرست,module,Magento_Catalog
 "Manage Product Attributes","مدیریت ویژگی‌های محصول",module,Magento_Catalog
 "This attribute cannot be edited.","این ویژگی را نمی‌توان ویرایش کرد.",module,Magento_Catalog
@@ -582,12 +586,26 @@ Search,جستجو,module,Magento_Catalog
 "Multiple Select","چند انتخابی",module,Magento_Catalog
 Dropdown,کشویی,module,Magento_Catalog
 "As low as","از حداقل",module,Magento_Catalog
+Images,تصاویر,module,Magento_Catalog
+"Tier Price","ردیف قیمت",module,Magento_Catalog
+"Customer Group","گروه مشتری",module,Magento_Catalog
+To,به,module,Magento_Catalog
+Done,اعمال,module,Magento_Catalog
+"Add Option","افزودن گزینه",module,Magento_Catalog
+"Option Title","عنوان گزینه",module,Magento_Catalog
+Title,عنوان,module,Magento_Catalog
+Required,الزامی,module,Magento_Catalog
+"Price Type","نوع قیمت",module,Magento_Catalog
+"Max Characters","بیشینه‌ی کاراکترها",module,Magento_Catalog
+"Maximum Image Size","بیشینه‌ی اندازه‌ی تصویر",module,Magento_Catalog
+Remove,برداشتن,module,Magento_Catalog
+Thumbnail,"تصویر بندانگشتی",module,Magento_Catalog
+Actions,کنش‌ها,module,Magento_Catalog
 "Collapse All","بستن همه",module,Magento_Catalog
 "Expand All","بازکردن همه",module,Magento_Catalog
 "Use Default Value","از مقدار پیش فرض استفاده کنید",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","مدیریت عناوین (اندازه، رنگ، و غیره)",module,Magento_Catalog
 "Is Default","پیش فرض است",module,Magento_Catalog
-"Add Option","افزودن گزینه",module,Magento_Catalog
 Groups,گروه‌ها,module,Magento_Catalog
 "Unassigned Attributes","ویژگی‌های اختصاص نیافته",module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","این گروه محتوی ویژگی‌های سیستمی است. لطفا ویژگی‌های سیستمی را به گروه دیگری منتقل نموده و دوباره سعی نمایید.",module,Magento_Catalog
@@ -609,21 +627,13 @@ Backorders,"برگشت سفارش",module,Magento_Catalog
 "Out of Stock","موجود نیست",module,Magento_Catalog
 "Add Product To Websites","افزودن محصول به وب‌سایت",module,Magento_Catalog
 "Remove Product From Websites","برداشتن محصول از وب‌سایت‌ها",module,Magento_Catalog
-"Option Title","عنوان گزینه",module,Magento_Catalog
 "Input Type","نوع ورودی",module,Magento_Catalog
-Required,الزامی,module,Magento_Catalog
-"Price Type","نوع قیمت",module,Magento_Catalog
-"Maximum Image Size","بیشینه‌ی اندازه‌ی تصویر",module,Magento_Catalog
-Title,عنوان,module,Magento_Catalog
-"Max Characters","بیشینه‌ی کاراکترها",module,Magento_Catalog
-"Customer Group","گروه مشتری",module,Magento_Catalog
 Action,اقدام,module,Magento_Catalog
 "and above","و بالاتر",module,Magento_Catalog
 "Delete Tier","حذف ردیف",module,Magento_Catalog
 "Product In Websites","محصول در وب‌سایت‌ها",module,Magento_Catalog
 "Product Alerts","هشدارهای محصول",module,Magento_Catalog
 "Advanced Settings","تنظیمات پیشرفته",module,Magento_Catalog
-Actions,کنش‌ها,module,Magento_Catalog
 "Select All","انتخاب همه",module,Magento_Catalog
 "Unselect All","عدم انتخاب همه",module,Magento_Catalog
 "Select Visible","انتخاب نمایان‌ها",module,Magento_Catalog
@@ -642,8 +652,8 @@ Compare,مقایسه,module,Magento_Catalog
 "Clear All","پاک کردن همه",module,Magento_Catalog
 Prev,قبلی,module,Magento_Catalog
 Next,بعدی,module,Magento_Catalog
-"Add to Compare","افزودن به مقایسه",module,Magento_Catalog
 "Learn More","بیشتر بدانید",module,Magento_Catalog
+"Add to Compare","افزودن به مقایسه",module,Magento_Catalog
 "Check items to add to the cart or","بررسی آیتم‌ها برای افزودن به سبد یا",module,Magento_Catalog
 "select all","انتخاب همه",module,Magento_Catalog
 Show,نمایش,module,Magento_Catalog
@@ -719,37 +729,25 @@ Loading...,"بار گذاری...",module,Magento_Checkout
 "Incl. Tax","با مالیات",module,Magento_Checkout
 "Static Blocks","بلاک‌های ایستا",module,Magento_Cms
 "Add New Block","افزودن بلاک جدید",module,Magento_Cms
-"Save Block","ذخیره‌ی بلاک",module,Magento_Cms
+Back,بازگشت,module,Magento_Cms
 "Delete Block","حذف بلاک",module,Magento_Cms
+"Are you sure you want to do this?","آيا شما مطمئن به انجام اين كار هستيد؟",module,Magento_Cms
+Reset,بازنشانی,module,Magento_Cms
 "Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_Cms
-"New Block","بلاک جدید",module,Magento_Cms
-"General Information","اطلاعات عمومی",module,Magento_Cms
-"Block Title","عنوان بلاک",module,Magento_Cms
-Identifier,شناسه,module,Magento_Cms
-"Store View","نمايش فروشگاه",module,Magento_Cms
-Status,وضعيت,module,Magento_Cms
-Enabled,فعال,module,Magento_Cms
-Disabled,"غير فعال",module,Magento_Cms
-Content,محتوا,module,Magento_Cms
+"Save Block","ذخیره‌ی بلاک",module,Magento_Cms
 ID,شناسه,module,Magento_Cms
 Title,عنوان,module,Magento_Cms
+Identifier,شناسه,module,Magento_Cms
+Status,وضعيت,module,Magento_Cms
+Disabled,"غير فعال",module,Magento_Cms
+Enabled,فعال,module,Magento_Cms
 "Manage Pages","مدیریت صفحات",module,Magento_Cms
 "Add New Page","افزودن صفحه‌ی جدید",module,Magento_Cms
-"Save Page","ذخیره‌ی صفحه",module,Magento_Cms
 "Delete Page","حذف صفحه",module,Magento_Cms
-"New Page","صفحه‌ی جدید",module,Magento_Cms
-"Content Heading","سرنویس محتوا",module,Magento_Cms
-Layout,آرایش,module,Magento_Cms
-"Layout Update XML","به روز رسانی XML آرایش",module,Magento_Cms
-"-- Please Select --","-- لطفا انتخاب کنيد --",module,Magento_Cms
-"Custom Theme","تم سفارشی",module,Magento_Cms
-"Custom Layout","آرایش سفارشی",module,Magento_Cms
-Design,طراحی,module,Magento_Cms
-"Page Information","اطلاعات صفحه",module,Magento_Cms
-"Page Title","عنوان صفحه",module,Magento_Cms
+"Save Page","ذخیره‌ی صفحه",module,Magento_Cms
 "URL Key","کلید URL",module,Magento_Cms
-"Meta Keywords","فوق واژه",module,Magento_Cms
-"Meta Description","فوق توصیف",module,Magento_Cms
+Layout,آرایش,module,Magento_Cms
+"Store View","نمايش فروشگاه",module,Magento_Cms
 Action,اقدام,module,Magento_Cms
 Preview,"پيش نمايش",module,Magento_Cms
 "Media Storage","ذخیره سازی رسانه",module,Magento_Cms
@@ -765,10 +763,13 @@ Home,خانه,module,Magento_Cms
 CMS,"مديريت محتوا",module,Magento_Cms
 "This block no longer exists.","این بلاک دیگر وجود ندارد.",module,Magento_Cms
 "Edit Block","ویرایش بلاک",module,Magento_Cms
+"New Block","بلاک جدید",module,Magento_Cms
 "The page has been deleted.","صفحه حذف شد.",module,Magento_Cms
 "This page no longer exists.","این صفحه دیگر وجود ندارد.",module,Magento_Cms
 "Edit Page","ویرایش صفحه",module,Magento_Cms
+"New Page","صفحه‌ی جدید",module,Magento_Cms
 Pages,صفحات,module,Magento_Cms
+"Page Title","عنوان صفحه",module,Magento_Cms
 "Enabled by Default","پیش فرض ممکن شده",module,Magento_Cms
 "Disabled by Default","پیش فرض ناممکن شده",module,Magento_Cms
 "Disabled Completely","به کلی ناممکن شده",module,Magento_Cms
@@ -777,6 +778,7 @@ Pages,صفحات,module,Magento_Cms
 "All Store Views","همه‌ی نماهای فروشگاه",module,Magento_Cms
 Edit,ويرايش,module,Magento_Cms
 Delete,حذف,module,Magento_Cms
+View,مشاهده,module,Magento_Cms
 "No files found","فایلی یافت نشد",module,Magento_Cms
 "Browse Files...","مرور فایل های ...",module,Magento_Cms
 "Collapse All","بستن همه",module,Magento_Cms
@@ -823,6 +825,16 @@ Stores,فروشگاه‌ها,module,Magento_Config
 Summary,خلاصه,module,Magento_ConfigurableProduct
 "Choose an Option...","انتخاب یک گزینه...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","این ویژگی در محصولات تنظیم مورد استفاده قرار می گیرد.",module,Magento_ConfigurableProduct
+Confirm,تایید,module,Magento_ConfigurableProduct
+Done,اعمال,module,Magento_ConfigurableProduct
+Image,تصویر,module,Magento_ConfigurableProduct
+Name,نام,module,Magento_ConfigurableProduct
+SKU,"کد کالا",module,Magento_ConfigurableProduct
+Price,قيمت,module,Magento_ConfigurableProduct
+Quantity,تعداد,module,Magento_ConfigurableProduct
+Weight,وزن,module,Magento_ConfigurableProduct
+Status,وضعيت,module,Magento_ConfigurableProduct
+Actions,کنش‌ها,module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","این ویژگی در محصولات قابل پیکربندی استفاده شده است. شما نمی‌توانید آن را از مجموعه ویژگی بردارید.",module,Magento_ConfigurableProduct
 "Associated Products","محصولات وابسته",module,Magento_ConfigurableProduct
 Options,"گزينه ها",module,Magento_ConfigurableProduct
@@ -831,14 +843,6 @@ Options,"گزينه ها",module,Magento_ConfigurableProduct
 Images,تصاویر,module,Magento_ConfigurableProduct
 "Browse Files...","مرور فایل های ...",module,Magento_ConfigurableProduct
 Select,انتخاب,module,Magento_ConfigurableProduct
-Price,قيمت,module,Magento_ConfigurableProduct
-Quantity,تعداد,module,Magento_ConfigurableProduct
-Image,تصویر,module,Magento_ConfigurableProduct
-Name,نام,module,Magento_ConfigurableProduct
-SKU,"کد کالا",module,Magento_ConfigurableProduct
-Weight,وزن,module,Magento_ConfigurableProduct
-Actions,کنش‌ها,module,Magento_ConfigurableProduct
-Confirm,تایید,module,Magento_ConfigurableProduct
 Cancel,لغو,module,Magento_ConfigurableProduct
 "* Required Fields","* زمينه هاي مورد نياز",module,Magento_Contact
 Name,نام,module,Magento_Contact
@@ -1089,29 +1093,30 @@ Unlimited,"نا محدود",module,Magento_Downloadable
 "Order id cannot be null","شناسه سفارش نمی تواند خالي باشد",module,Magento_Downloadable
 "Order item id cannot be null","شناسه سفارش آیتم نمی تواند خالي باشد",module,Magento_Downloadable
 "Please specify product link(s).","لطفا لینک(های) محصول را مشخص نمایید.",module,Magento_Downloadable
+Yes,بله,module,Magento_Downloadable
+No,خیر,module,Magento_Downloadable
+"Use config","استفاده از پیکربندی",module,Magento_Downloadable
+"Upload File","آپلود فایل",module,Magento_Downloadable
 attachment,الصاق,module,Magento_Downloadable
 inline,اینلاین,module,Magento_Downloadable
 Pending,انتظار,module,Magento_Downloadable
 Invoiced,فاکتورشده,module,Magento_Downloadable
-sample,نمونه,module,Magento_Downloadable
 Links,لینک‌ها,module,Magento_Downloadable
-"[STORE VIEW]","[مشاهده فروشگاه]",module,Magento_Downloadable
 Title,عنوان,module,Magento_Downloadable
-"Use Default Value","از مقدار پیش فرض استفاده کنید",module,Magento_Downloadable
-[GLOBAL],[سراسری],module,Magento_Downloadable
 "Links can be purchased separately","لینک‌ها می‌توانند جداگانه خریداری شوند",module,Magento_Downloadable
-"Sort Order","ترتيب سفارش",module,Magento_Downloadable
 Price,قيمت,module,Magento_Downloadable
+File,فایل,module,Magento_Downloadable
 Sample,نمونه,module,Magento_Downloadable
 Shareable,"قابل تسهیم",module,Magento_Downloadable
 "Max. Downloads","بیشینه‌ی دانلودها",module,Magento_Downloadable
-File,فایل,module,Magento_Downloadable
-"Browse Files...","مرور فایل های ...",module,Magento_Downloadable
-Yes,بله,module,Magento_Downloadable
-No,خیر,module,Magento_Downloadable
-"Use config","استفاده از پیکربندی",module,Magento_Downloadable
-Delete,حذف,module,Magento_Downloadable
 Samples,نمونه,module,Magento_Downloadable
+"Use Default Value","از مقدار پیش فرض استفاده کنید",module,Magento_Downloadable
+sample,نمونه,module,Magento_Downloadable
+"[STORE VIEW]","[مشاهده فروشگاه]",module,Magento_Downloadable
+[GLOBAL],[سراسری],module,Magento_Downloadable
+"Sort Order","ترتيب سفارش",module,Magento_Downloadable
+"Browse Files...","مرور فایل های ...",module,Magento_Downloadable
+Delete,حذف,module,Magento_Downloadable
 SKU,"کد کالا",module,Magento_Downloadable
 "In stock",موجود,module,Magento_Downloadable
 "Out of stock","در انبار موجود نیست",module,Magento_Downloadable
@@ -1139,6 +1144,7 @@ Shipped,"ارسال شده",module,Magento_Downloadable
 Canceled,لغو,module,Magento_Downloadable
 Refunded,مسترد,module,Magento_Downloadable
 "Attribute Properties","مشخصات ویژگی",module,Magento_Eav
+"Default Label","برچسب پیش فرض",module,Magento_Eav
 "Attribute Code","کد ویژگی",module,Magento_Eav
 "Catalog Input Type for Store Owner","نوع ورودی کاتالوگ برای مالک فروشگاه",module,Magento_Eav
 "Values Required","مقادیر لازم شده",module,Magento_Eav
@@ -1267,6 +1273,7 @@ Kilograms,کیلوگرم,module,Magento_Fedex
 "Empty response","پاسخ خالی",module,Magento_Fedex
 None,"هیچ یک",module,Magento_Fedex
 "Unknown entity type","نوع موجودیت ناشناخته",module,Magento_GiftMessage
+"Use Config Settings","استفاده از تنظیمات پیکربندی",module,Magento_GiftMessage
 From,از,module,Magento_GiftMessage
 To,به,module,Magento_GiftMessage
 Message,پیام,module,Magento_GiftMessage
@@ -1281,16 +1288,22 @@ OK,قبول,module,Magento_GiftMessage
 Dynamic,پویا,module,Magento_GoogleAdwords
 "Please specify the quantity of product(s).","لطفا تعداد محصول(ات) را مشخص نمایید.",module,Magento_GroupedProduct
 "Cannot process the item.","نمی توان آیتم را پردازش کند.",module,Magento_GroupedProduct
+Cancel,لغو,module,Magento_GroupedProduct
+Remove,برداشتن,module,Magento_GroupedProduct
+ID,شناسه,module,Magento_GroupedProduct
+Thumbnail,"تصویر بندانگشتی",module,Magento_GroupedProduct
+Name,نام,module,Magento_GroupedProduct
+"Attribute Set","ست وظيفه",module,Magento_GroupedProduct
+Status,وضعيت,module,Magento_GroupedProduct
+SKU,"کد کالا",module,Magento_GroupedProduct
+Price,قيمت,module,Magento_GroupedProduct
+Actions,کنش‌ها,module,Magento_GroupedProduct
 "Associated Products","محصولات وابسته",module,Magento_GroupedProduct
 Availability:,دسترسی:,module,Magento_GroupedProduct
 "Out of stock","در انبار موجود نیست",module,Magento_GroupedProduct
-ID,شناسه,module,Magento_GroupedProduct
-SKU,"کد کالا",module,Magento_GroupedProduct
 "Product Name","نام محصول",module,Magento_GroupedProduct
-Price,قيمت,module,Magento_GroupedProduct
 Qty,تعداد,module,Magento_GroupedProduct
 "No options of this product are available.","هیچ گزینه‌ای از این محصول در دسترس نیست.",module,Magento_GroupedProduct
-Name,نام,module,Magento_GroupedProduct
 "Default Qty","تعداد پیش فرض",module,Magento_GroupedProduct
 "In stock",موجود,module,Magento_GroupedProduct
 Export,صادرات,module,Magento_ImportExport
@@ -1336,15 +1349,16 @@ Edit,ويرايش,module,Magento_Integration
 Activate,"فعال کردن",module,Magento_Integration
 Inactive,غیرفعال,module,Magento_Integration
 Active,فعال,module,Magento_Integration
+Reset,بازنشانی,module,Magento_Integration
 "Invalid Callback URL","نامعتبر URL پاسخ به تماس",module,Magento_Integration
 "Invalid Rejected Callback URL","URL نامعتبر است رد پاسخ به تماس",module,Magento_Integration
 "Resource Access","دسترسی منبع",module,Magento_Integration
 Custom,سفارشی,module,Magento_Integration
 All,همه,module,Magento_Integration
 Resources,منابع,module,Magento_Integration
+No,خیر,module,Magento_LayeredNavigation
 "Filterable (with results)","فیلتر پذیر (با نتایج)",module,Magento_LayeredNavigation
 "Filterable (no results)","فیلتر پذیر (بدون نتایج)",module,Magento_LayeredNavigation
-No,خیر,module,Magento_LayeredNavigation
 "Use in Layered Navigation","استفاده در ناوبری لایه‌ای",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price","تنها می‌تواند با نوع ورودی کاتالوگ کشویی، چند انتخابی و قیمت استفاده شود",module,Magento_LayeredNavigation
 Position,موقعيت,module,Magento_LayeredNavigation
@@ -1522,7 +1536,6 @@ Region/State,منطقه/استان,module,Magento_OfflineShipping
 None,"هیچ یک",module,Magento_OfflineShipping
 "Per Order","بر سفارش",module,Magento_OfflineShipping
 "Per Item","بر آیتم",module,Magento_OfflineShipping
-"Free Shipping","ارسال رایگان",module,Magento_OfflineShipping
 No,خیر,module,Magento_OfflineShipping
 "For matching items only","تنها برای تطابق آیتم‌ها",module,Magento_OfflineShipping
 "For shipment with matching items","برای محموله با آیتم‌های مطابق",module,Magento_OfflineShipping
@@ -1579,7 +1592,6 @@ Close,بستن,module,Magento_Paypal
 "Incl. Tax","با مالیات",module,Magento_Paypal
 "Billing Information","اطلاعات صورت حساب",module,Magento_Paypal
 "Shipping Information","اطلاعات ارسال",module,Magento_Paypal
-"Would you like to sign a billing agreement to streamline further purchases with PayPal?","آیا شما مایل به امضای یک قرارداد صدور صورت حساب برای ساده کردن بیشتر خریدها با پی پال هستید؟",module,Magento_Paypal
 Reports,گزارش‌ها,module,Magento_Paypal
 Sales,فروش,module,Magento_Paypal
 "View Transaction","مشاهده‌ی تراکنش",module,Magento_Paypal
@@ -1587,6 +1599,7 @@ Sales,فروش,module,Magento_Paypal
 "Express Checkout and Order have been canceled.","تسویه‌ی سریع و سفارش لغو شدند.",module,Magento_Paypal
 "Express Checkout has been canceled.","تسویه‌ی سریع لغو شد.",module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","لطفا پیش از دادن سفارش با همه‌ی این شرایط و ضوابط موافقت نمایید.",module,Magento_Paypal
+"Would you like to sign a billing agreement to streamline further purchases with PayPal?","آیا شما مایل به امضای یک قرارداد صدور صورت حساب برای ساده کردن بیشتر خریدها با پی پال هستید؟",module,Magento_Paypal
 "PayPal response hasn't required fields.","پاسخ به پی پال تا زمینه های مورد نیاز نمی باشد.",module,Magento_Paypal
 "Unable to save Billing Agreement:","ناتوان در ذخیره‌ی قرارداد صدور صورت حساب:",module,Magento_Paypal
 Active,فعال,module,Magento_Paypal
@@ -1780,6 +1793,10 @@ Customer,مشتري,module,Magento_Paypal
 "Created At","ايجاد شده در",module,Magento_Paypal
 "Updated At","به روز شده در",module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","برای استفاده از حالت پیشرفته پی پال باید آن را از حساب کاربری خود در پی پال فعال کنید.",module,Magento_Paypal
+"Credit Card Type","نوع کارت اعتباري",module,Magento_Paypal
+"Credit Card Number","شماره کارت اعتباري",module,Magento_Paypal
+"Expiration Date","تاريخ انقضا",module,Magento_Paypal
+"Card Verification Number","تاييد شماره كارت",module,Magento_Paypal
 "Agreement Information","اطلاعات قرارداد",module,Magento_Paypal
 "Reference ID:","شناسه‌ی ارجاع:",module,Magento_Paypal
 Status:,وضعیت:,module,Magento_Paypal
@@ -1821,6 +1838,7 @@ Continue,ادامه,module,Magento_Paypal
 "Acceptance Mark","نشان پذیرش",module,Magento_Paypal
 "What is PayPal?","پی پال چیست؟",module,Magento_Paypal
 "Remember Me","من را به خاطر بسپار",module,Magento_Persistent
+"What's this?","این چیست؟",module,Magento_Persistent
 "Alert subscription has been saved.","اشتراک هشدار ذخیره شد.",module,Magento_ProductAlert
 "You will no longer receive price alerts for this product.","شما دیگر هشدارهای قیمت را برای این محصول دریافت نخواهید کرد.",module,Magento_ProductAlert
 "Unable to update the alert subscription.","ناتوان در به روز رسانی اشتراک هشدار.",module,Magento_ProductAlert
@@ -2067,21 +2085,11 @@ FALSE,نادرست,module,Magento_Rule
 Category,دسته,module,Magento_Rule
 "Open Chooser","باز انتخاب",module,Magento_Rule
 "Add New Rule","افزودن قانون جدید",module,Magento_SalesRule
+Delete,حذف,module,Magento_SalesRule
+Reset,بازنشانی,module,Magento_SalesRule
 "Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_SalesRule
-"New Rule","قانون جدید",module,Magento_SalesRule
-"Rule Information","اطلاعات قانون",module,Magento_SalesRule
+Save,ذخيره,module,Magento_SalesRule
 Actions,کنش‌ها,module,Magento_SalesRule
-Apply,اعمال,module,Magento_SalesRule
-"Percent of product price discount","تخفیف درصد قیمت محصول",module,Magento_SalesRule
-"Fixed amount discount","تخفیف مبلغ ثابت",module,Magento_SalesRule
-"Fixed amount discount for whole cart","تخفیف مبلغ ثابت برای کل کارت",module,Magento_SalesRule
-"Buy X get Y free (discount amount is Y)","خرید X تا دریافت Y تا رایگان (مبلغ تخفیف Y است)",module,Magento_SalesRule
-"Discount Amount","مبلغ تخفیف",module,Magento_SalesRule
-"Maximum Qty Discount is Applied To","بیشینه تخفیف تعداد اعمال شده است برای",module,Magento_SalesRule
-"Discount Qty Step (Buy X)","مرحله‌ی تعداد تخفیف (خرید X)",module,Magento_SalesRule
-"Apply to Shipping Amount","اعمال برای مبلغ ارسال",module,Magento_SalesRule
-Yes,بله,module,Magento_SalesRule
-No,خیر,module,Magento_SalesRule
 "Apply To","اعمال برای",module,Magento_SalesRule
 Conditions,شرایط,module,Magento_SalesRule
 "Manage Coupon Codes","مدیریت کدهای کوپن",module,Magento_SalesRule
@@ -2095,34 +2103,21 @@ Conditions,شرایط,module,Magento_SalesRule
 "If empty no separation.","اگر خالی باشد جدا نمی شود.",module,Magento_SalesRule
 Generate,تولید,module,Magento_SalesRule
 "Coupon Code","کد کوپن",module,Magento_SalesRule
+No,خیر,module,Magento_SalesRule
+Yes,بله,module,Magento_SalesRule
 "Times Used","بار استفاده شده است",module,Magento_SalesRule
 "Excel XML","اکسل XML",module,Magento_SalesRule
-Delete,حذف,module,Magento_SalesRule
 "Are you sure you want to delete the selected coupon(s)?","آيا شما مطمئن هستيد كه مي خواهيد كوپن را حذف كنيد؟",module,Magento_SalesRule
 Labels,برچسب‌ها,module,Magento_SalesRule
-"Default Rule Label for All Store Views","برچسب قانون پیش فرض برای همه‌ی نماهای فروشگاه",module,Magento_SalesRule
 "Store View Specific Labels","برچسب‌های خاص نمای فروشگاه",module,Magento_SalesRule
-"Rule Name","نام قانون",module,Magento_SalesRule
-Description,توصیف,module,Magento_SalesRule
-Status,وضعيت,module,Magento_SalesRule
-Active,فعال,module,Magento_SalesRule
-Inactive,غیرفعال,module,Magento_SalesRule
-Websites,"وب سایت ها",module,Magento_SalesRule
-"Customer Groups","گروه‌های مشتری",module,Magento_SalesRule
-Coupon,کوپن,module,Magento_SalesRule
-"Use Auto Generation","استفاده از ایجاد خودکار",module,Magento_SalesRule
-"Uses per Coupon","استفاده بر کوپن",module,Magento_SalesRule
-"Uses per Customer","استفاده بر مشتری",module,Magento_SalesRule
-From,از,module,Magento_SalesRule
-To,به,module,Magento_SalesRule
-Priority,اولویت,module,Magento_SalesRule
-"Public In RSS Feed","عمومی در فید RSS",module,Magento_SalesRule
 ID,شناسه,module,Magento_SalesRule
 Start,شروع,module,Magento_SalesRule
+Status,وضعيت,module,Magento_SalesRule
 Coupons/Discounts,کوپن‌ها/تخفیف‌ها,module,Magento_SalesRule
 Promotions,تبلیغات,module,Magento_SalesRule
 "This rule no longer exists.","این قانون دیگر وجود ندارد.",module,Magento_SalesRule
 "Edit Rule","ویرایش قانون",module,Magento_SalesRule
+"New Rule","قانون جدید",module,Magento_SalesRule
 "Rule is not defined","قانون تعریف نشده است",module,Magento_SalesRule
 Catalog,فهرست,module,Magento_SalesRule
 Alphanumeric,"عدد و حروف",module,Magento_SalesRule
@@ -2170,6 +2165,12 @@ is,هست,module,Magento_SalesRule
 "less than","کمتر از",module,Magento_SalesRule
 "is one of","هست یکی از",module,Magento_SalesRule
 "is not one of","نیست یکی از",module,Magento_SalesRule
+"Percent of product price discount","تخفیف درصد قیمت محصول",module,Magento_SalesRule
+"Fixed amount discount","تخفیف مبلغ ثابت",module,Magento_SalesRule
+"Fixed amount discount for whole cart","تخفیف مبلغ ثابت برای کل کارت",module,Magento_SalesRule
+"Buy X get Y free (discount amount is Y)","خرید X تا دریافت Y تا رایگان (مبلغ تخفیف Y است)",module,Magento_SalesRule
+Active,فعال,module,Magento_SalesRule
+Inactive,غیرفعال,module,Magento_SalesRule
 "Credit Memos","یادداشت‌های بستانکاری",module,Magento_Sales
 Orders,سفارشات,module,Magento_Sales
 Invoices,فاکتورها,module,Magento_Sales
@@ -2486,9 +2487,6 @@ Comment,توضیح,module,Magento_Sales
 "Placed from IP","از IP قرار داده شده",module,Magento_Sales
 "Customer Name","نام مشتری",module,Magento_Sales
 "Customer Group","گروه مشتری",module,Magento_Sales
-"Item Status","وضعیت آیتم",module,Magento_Sales
-"Original Price","قيمت اصلي",module,Magento_Sales
-"Tax Percent","درصد ماليات",module,Magento_Sales
 "Transaction Data","دیتای تراکنش",module,Magento_Sales
 "Transaction ID","شناسه‌ی تراکنش",module,Magento_Sales
 "Parent Transaction ID","شناسه‌ی تراکنش منشا",module,Magento_Sales
@@ -2532,6 +2530,9 @@ Search,جستجو,module,Magento_Sales
 "Search Term","عبارت جستجو",module,Magento_Search
 Results,نتایج,module,Magento_Search
 "Search Terms","عبارات جستجو",module,Magento_Search
+Back,بازگشت,module,Magento_Search
+Reset,بازنشانی,module,Magento_Search
+"Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_Search
 Search,جستجو,module,Magento_Search
 "Add New Search Term","افزودن عبارت جستجوی جدید",module,Magento_Search
 "Save Search","ذخیره‌ی جستجو",module,Magento_Search
@@ -2552,8 +2553,13 @@ Store,فروشگاه,module,Magento_Search
 "This search no longer exists.","این جستجو دیگر وجود ندارد.",module,Magento_Search
 "Edit Search","ویرایش جستجو",module,Magento_Search
 Reports,گزارش‌ها,module,Magento_Search
+"All Websites","همه‌ی وب‌سایت‌ها",module,Magento_Search
+"All Store Views","همه‌ی نماهای فروشگاه",module,Magento_Search
+Delete,حذف,module,Magento_Search
 "Search entire store here...","تمام فروشگاه را اینجا جستجو کنید...",module,Magento_Search
 "There are no search terms available.","عبارات جستجویی موجود نیست.",module,Magento_Search
+None,"هیچ یک",module,Magento_Security
+"IP Address","آدرس IP",module,Magento_Security
 "The link to a friend was sent.","لینک به یک دوست ارسال شده بود.",module,Magento_SendFriend
 "Some emails were not sent.","برخی از ایمیل‌ها ارسال نشده بودند.",module,Magento_SendFriend
 "Invalid Sender Information","اطلاعات فرستنده نامعتبر",module,Magento_SendFriend
@@ -2725,6 +2731,7 @@ Admin,مدير,module,Magento_Store
 "Select Store","انتخاب فروشگاه",module,Magento_Store
 "Is Default","پیش فرض است",module,Magento_Swatches
 Delete,حذف,module,Magento_Swatches
+Clear,"پاک کردن",module,Magento_Swatches
 Options,"گزينه ها",module,Magento_Swatches
 "Select All","انتخاب همه",module,Magento_Swatches
 "Deselect All","لغو انتخاب همه",module,Magento_Swatches
@@ -2820,6 +2827,8 @@ Save,ذخيره,module,Magento_Tax
 "Add New Class","افزودن کلاس جدید",module,Magento_Tax
 "Grand Total Excl. Tax","جمع کل نهایی بی مالیات",module,Magento_Tax
 "Grand Total Incl. Tax","جمع کل نهایی با مالیات",module,Magento_Tax
+Back,بازگشت,module,Magento_Theme
+Default,"پیش فرض",module,Magento_Theme
 Themes,تم‌ها,module,Magento_Theme
 "Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_Theme
 Manage,مدیریت,module,Magento_Theme
@@ -2832,8 +2841,10 @@ Delete Image""",module,Magento_Theme
 "Insert File","گذاشتن فایل",module,Magento_Theme
 "New Folder Name:","نام پوشه‌ی جدید:",module,Magento_Theme
 "Storage Root","ریشه‌ی مخزن",module,Magento_Theme
+Global,سراسری,module,Magento_Theme
 "-- Please Select --","-- لطفا انتخاب کنيد --",module,Magento_Theme
 Message,پیام,module,Magento_Theme
+Edit,ويرايش,module,Magento_Theme
 Remove,برداشتن,module,Magento_Theme
 "Report All Bugs","گزارش همه‌ی باگ‌ها",module,Magento_Theme
 "JavaScript seems to be disabled in your browser.","به نظر می رسد جاوا اسکریپت در مرورگر شما غیر فعال است.",module,Magento_Theme
@@ -2846,9 +2857,9 @@ Show,نمایش,module,Magento_Theme
 Close,بستن,module,Magento_Theme
 "Go Today","برو به امروز",module,Magento_Theme
 Time,زمان,module,Magento_Theme
-Next,بعدی,module,Magento_Ui
-Back,بازگشت,module,Magento_Ui
 Cancel,لغو,module,Magento_Ui
+Back,بازگشت,module,Magento_Ui
+Next,بعدی,module,Magento_Ui
 "UPS Next Day Air","UPS روز بعد هوایی",module,Magento_Ups
 "UPS Second Day Air","UPS روز دوم هوایی",module,Magento_Ups
 "UPS Ground","UPS زمینی",module,Magento_Ups
@@ -3057,6 +3068,11 @@ Yes,بله,module,Magento_Variable
 "Variable Code must be unique.","کد متغییر باید یکتا باشد.",module,Magento_Variable
 "Validation has failed.","تایید اعتبار ناموفق بود.",module,Magento_Variable
 "Insert Variable...","قرادادن متغیر...",module,Magento_Variable
+"Card Number","شماره‌ی کارت",module,Magento_Vault
+"Expiration Date","تاريخ انقضا",module,Magento_Vault
+Type,نوع,module,Magento_Vault
+Actions,کنش‌ها,module,Magento_Vault
+Delete,حذف,module,Magento_Vault
 Message,پیام,module,Magento_Webapi
 "Add Tax","افزودن مالیات",module,Magento_Weee
 "All Websites","همه‌ی وب‌سایت‌ها",module,Magento_Weee
@@ -3064,14 +3080,14 @@ Message,پیام,module,Magento_Webapi
 "Including FPT and FPT description","شامل FPT و توصیف FPT",module,Magento_Weee
 "Excluding FPT","بدون FPT",module,Magento_Weee
 "Fixed Product Tax","مالیات بر محصولات ثابت",module,Magento_Weee
+Country/State,کشور/استان,module,Magento_Weee
+Tax,مالیات,module,Magento_Weee
+Website,"وب سایت",module,Magento_Weee
+Action,اقدام,module,Magento_Weee
 "Excl. Tax","بدون مالیات",module,Magento_Weee
 Total,مجموع,module,Magento_Weee
 "Incl. Tax","با مالیات",module,Magento_Weee
 "Total Incl. Tax","مجموع با مالیات",module,Magento_Weee
-Website,"وب سایت",module,Magento_Weee
-Country/State,کشور/استان,module,Magento_Weee
-Tax,مالیات,module,Magento_Weee
-Action,اقدام,module,Magento_Weee
 "Widget Insertion","الحاق ابزارک",module,Magento_Widget
 "Insert Widget","گذاشتن ابزارک",module,Magento_Widget
 Choose...,انتخاب...,module,Magento_Widget
@@ -3146,12 +3162,53 @@ Remove,برداشتن,theme,frontend/Magento/luma
 "Shop By","خرید توسط",theme,frontend/Magento/luma
 "Clear All","پاک کردن همه",theme,frontend/Magento/luma
 "Shopping Options","گزینه‌های خرید",theme,frontend/Magento/luma
+"Place Order","ایجاد سفارش",module,Magento_Authorizenet
+"Credit Card Information","اطلاعات كارت اعتباري",module,Magento_Braintree
+"What is this?","اين چيست؟",module,Magento_Braintree
+"Place Order","ایجاد سفارش",module,Magento_Braintree
 Items,"آیتم ها",module,Magento_Checkout
 "Shipping Method:","روش ارسال:",module,Magento_Checkout
 "Payment Method:","روش پرداخت:",module,Magento_Checkout
+"Email Address","آدرس ايمميل",module,Magento_Checkout
+Password,"رمز عبور",module,Magento_Checkout
+"Forgot Your Password?","کلمه عبور خود را فراموش کرده اید؟",module,Magento_Checkout
+Update,"بروز رساني",module,Magento_Checkout
+Cancel,لغو,module,Magento_Checkout
+"Save in address book","ذخیره در دفترچه آدرس",module,Magento_Checkout
+Login,ورود,module,Magento_Checkout
+Close,بستن,module,Magento_Checkout
+"Recently added item(s)","آیتم(های) اخیرا افزوده شده",module,Magento_Checkout
+"Options Details","تنظیمات جزئیات",module,Magento_Checkout
+Remove,برداشتن,module,Magento_Checkout
+"No Payment Methods","بدون روش پرداخت",module,Magento_Checkout
+"Payment Information","اطلاعات پرداخت",module,Magento_Checkout
+"Place Order","ایجاد سفارش",module,Magento_Checkout
+"Forgot an Item?","فراموشی یک آیتم؟",module,Magento_Checkout
+"Edit Your Cart","ویرایش سبدتان",module,Magento_Checkout
+"Shipping Address","آدرس ارسال",module,Magento_Checkout
+"New Address","آدرس جدید",module,Magento_Checkout
+"Shipping Methods","روش‌های ارسال",module,Magento_Checkout
+Next,بعدی,module,Magento_Checkout
+"Items in Cart","آیتم‌های درون سبد",module,Magento_Checkout
+"View Details","مشاهده جزئیات",module,Magento_Checkout
 Email:,ایمیل:,module,Magento_Customer
 Password:,"کلمه عبور:",module,Magento_Customer
+"Email Address","آدرس ايمميل",module,Magento_Customer
 "Currency Update Warnings","اخطارهای به روز رسانی ارز",module,Magento_Directory
+To:,به:,module,Magento_GiftMessage
+From:,از:,module,Magento_GiftMessage
+Message:,پیام:,module,Magento_GiftMessage
+Update,"بروز رساني",module,Magento_GiftMessage
+Edit,ويرايش,module,Magento_GiftMessage
+Delete,حذف,module,Magento_GiftMessage
+"Place Order","ایجاد سفارش",module,Magento_OfflinePayments
+"Place Order","ایجاد سفارش",module,Magento_Payment
+"Forgot an Item?","فراموشی یک آیتم؟",module,Magento_Payment
+"Edit Your Cart","ویرایش سبدتان",module,Magento_Payment
+"Sign a billing agreement to streamline further purchases with PayPal.","برای ساده کردن بیشتر خریدها با پی پال یک قرارداد صدور صورت حساب را امضا کنید.",module,Magento_Paypal
+Assign,"اختصاص دادن",module,Magento_Ui
+Options,"گزينه ها",module,Magento_Ui
+Filters,فیلترها,module,Magento_Ui
 Email:,ایمیل:,theme,frontend/Magento/luma
 Password:,"کلمه عبور:",theme,frontend/Magento/luma
 "Order Status","وضعيت سفارش",theme,frontend/Magento/luma
@@ -3159,15 +3216,16 @@ Password:,"کلمه عبور:",theme,frontend/Magento/luma
 "Order History","پیشینه‌ی سفارش",theme,frontend/Magento/luma
 "Payment Method","روش پرداخت",theme,frontend/Magento/luma
 "Shipping Method","روش ارسال",theme,frontend/Magento/luma
-Cancel,لغو,module,Magento_Catalog
 Submit,ارایه,module,Magento_Catalog
 "Configure Product","پیکربندی محصول",module,Magento_Catalog
 OK,قبول,module,Magento_Catalog
 "Please add rows to option.","لطفا خطوط را به گزینه اضافه نمایید.",module,Magento_Catalog
 "Please select items.","لطفا آیتم‌ها را انتخاب نمایید.",module,Magento_Catalog
 "unselect all","عدم انتخاب همه",module,Magento_Catalog
+Close,بستن,module,Magento_CheckoutAgreements
+Shipping,ارسال,module,Magento_Checkout
+"Save Address","ذخیره‌ی آدرس",module,Magento_Checkout
 "Incl. Tax","با مالیات",module,Magento_ConfigurableProduct
-Done,اعمال,module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","آيا شما مطمئن به انجام اين كار هستيد؟",module,Magento_Customer
 "Are you sure you want to delete this address?","شما مطمئن‌اید که می‌خواهید‌ این آدرس را حذف کنید؟",module,Magento_Customer
 Allow,"اجازه دادن",module,Magento_Integration
@@ -3176,6 +3234,12 @@ Save,ذخيره,module,Magento_ProductVideo
 Cancel,لغو,module,Magento_ProductVideo
 Delete,حذف,module,Magento_ProductVideo
 "Add Products","افزودن محصولات",module,Magento_Sales
+Add,"اضافه کردن",module,Magento_Ui
+Yes,بله,module,Magento_Ui
+No,خیر,module,Magento_Ui
+Done,اعمال,module,Magento_Ui
+"Select All","انتخاب همه",module,Magento_Ui
+"Deselect All","لغو انتخاب همه",module,Magento_Ui
 "Please enter a valid credit card number.","لطفا یک شماره‌ی کارت اعتباری معتبر وارد نمایید.",module,Magento_Ui
 "Please select an option.","لطفا یک گزینه را انتخاب کنید.",module,Magento_Ui
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","لطفا یک شماره تلفن معتبر وارد نمایید. برای مثال 7890-456 (123) یا 7890-456-123.",module,Magento_Ui
@@ -3195,6 +3259,9 @@ Delete,حذف,module,Magento_ProductVideo
 "Please enter a valid value, ex: 10,20,30","لطفا یک مقدار معتبر وارد نمایید، مثال: 10،20،30",module,Magento_Ui
 OK,قبول,module,Magento_Ui
 Close,بستن,module,Magento_Ui
+Cancel,لغو,module,Magento_Vault
+"Show Toolbar","نمایش نوار ابزار",module,Magento_AdminNotification
+"Show List","نمایش لیست",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","استفاده از HTTPS برای دریافت فید",module,Magento_AdminNotification
 "Update Frequency","تکرار به روز رسانی",module,Magento_AdminNotification
 "Last Update","آخرین به روز رسانی",module,Magento_AdminNotification
@@ -3223,6 +3290,18 @@ Debug,"اشکال زدايي کردن",module,Magento_Authorizenet
 "Minimum Order Total","کمینه‌ی جمع کل سفارش",module,Magento_Authorizenet
 "Maximum Order Total","بیشینه‌ی جمع کل سفارش",module,Magento_Authorizenet
 "Sort Order","ترتيب سفارش",module,Magento_Authorizenet
+"Magento Admin","مدیر مجنتو",module,Magento_Backend
+"Global Search","جستجوی سراسری",module,Magento_Backend
+Content,محتوا,module,Magento_Backend
+Design,طراحی,module,Magento_Backend
+Schedule,"زمان بندی",module,Magento_Backend
+Settings,تنظیمات,module,Magento_Backend
+"All Stores","همه‌ی فروشگاه‌ها",module,Magento_Backend
+Attributes,وظيفه,module,Magento_Backend
+"Magento Connect","اتصال مجنتو",module,Magento_Backend
+"Package Extensions","بسته افزونه",module,Magento_Backend
+Tools,ابزارها,module,Magento_Backend
+Currency,ارز,module,Magento_Backend
 Services,سرویس‌ها,module,Magento_Backend
 Advanced,پیشرفته,module,Magento_Backend
 "Disable Modules Output","خروجی ماژول‌ها ناممکن",module,Magento_Backend
@@ -3234,13 +3313,6 @@ Advanced,پیشرفته,module,Magento_Backend
 "General Contact","تماس عمومی",module,Magento_Backend
 "Sales Representative","نماینده‌ی فروش",module,Magento_Backend
 "Customer Support","پشتیبانی سفارشی",module,Magento_Backend
-Design,طراحی,module,Magento_Backend
-Pagination,"صفحه بندی",module,Magento_Backend
-"Pagination Frame","فریم صفحه بندی",module,Magento_Backend
-"How many links to display at once.","تعداد لینک‌ها برای نمایش در یک بار.",module,Magento_Backend
-"Pagination Frame Skip","پرش از فریم صفحه بندی",module,Magento_Backend
-"Anchor Text for Previous","متن مرجع برای قبلی",module,Magento_Backend
-"Anchor Text for Next","متن مرجع برای بعدی",module,Magento_Backend
 Developer,"گسترش دهنده",module,Magento_Backend
 Debug,"اشکال زدايي کردن",module,Magento_Backend
 "Add Block Names to Hints","افزودن نام‌های بلاک به اشاره‌ها",module,Magento_Backend
@@ -3278,7 +3350,6 @@ Host,میزبان,module,Magento_Backend
 Admin,مدير,module,Magento_Backend
 "Admin User Emails","ایمیل‌های کاربران مدیر",module,Magento_Backend
 "Forgot Password Email Template","قالب ایمیل گذرواژه‌ی فراموش شده",module,Magento_Backend
-"Please enter a number 1 or greater in this field.","لطفا شماره 1 و یا بیشتر در این زمینه را وارد کنید.",module,Magento_Backend
 "Startup Page","صفحه‌ی شروع",module,Magento_Backend
 "Admin Base URL","URL مبنای مدیریت",module,Magento_Backend
 "Use Custom Admin URL","استفاده از URL مدیریت سفارشی",module,Magento_Backend
@@ -3287,6 +3358,7 @@ Admin,مدير,module,Magento_Backend
 "Use Custom Admin Path","استفاده از مسير سفارشی مدیریت",module,Magento_Backend
 "Custom Admin Path","مسير سفارشي مديريت",module,Magento_Backend
 Security,امنیت,module,Magento_Backend
+"Please enter a number 1 or greater in this field.","لطفا شماره 1 و یا بیشتر در این زمینه را وارد کنید.",module,Magento_Backend
 "Add Secret Key to URLs","افزودن کلید رمز به URLها",module,Magento_Backend
 "Login is Case Sensitive","ورود به کوچک و بزرگ بودن حروف حساس است",module,Magento_Backend
 "Enable Charts","فعال کردن نمودارها",module,Magento_Backend
@@ -3312,6 +3384,14 @@ Web,وب,module,Magento_Backend
 Description,توصیف,module,Magento_Backend
 Tags,برچسب‌ها,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">خطای 404</h1><p>صفحه یافت نشد.</p>",module,Magento_Backend
+"Default Theme","قالب پیش فرض",module,Magento_Backend
+Pagination,"صفحه بندی",module,Magento_Backend
+"Pagination Frame","فریم صفحه بندی",module,Magento_Backend
+"How many links to display at once.","تعداد لینک‌ها برای نمایش در یک بار.",module,Magento_Backend
+"Pagination Frame Skip","پرش از فریم صفحه بندی",module,Magento_Backend
+"Anchor Text for Previous","متن مرجع برای قبلی",module,Magento_Backend
+"Anchor Text for Next","متن مرجع برای بعدی",module,Magento_Backend
+Rollback,عقبگرد,module,Magento_Backup
 "Scheduled Backup Settings","تنظيمات برنامه ريزي تهيه نسخه پشتيبان",module,Magento_Backup
 "Enable Scheduled Backup","تهيه نسخه پشتيبان از برنامه ريزي را فعال کنيد",module,Magento_Backup
 "Backup Type","نوع پشتيبان گيري",module,Magento_Backup
@@ -3325,7 +3405,6 @@ Name,نام,module,Magento_Backup
 Type,نوع,module,Magento_Backup
 Download,دانلود,module,Magento_Backup
 Action,اقدام,module,Magento_Backup
-Rollback,عقبگرد,module,Magento_Backup
 "Enable this Solution","فعال کردن این راه حل",module,Magento_Braintree
 Title,عنوان,module,Magento_Braintree
 "Payment Action","اقدام پرداخت",module,Magento_Braintree
@@ -3335,6 +3414,10 @@ Debug,"اشکال زدايي کردن",module,Magento_Braintree
 "Sort Order","ترتيب سفارش",module,Magento_Braintree
 "Payment from Applicable Countries","پرداخت از کشورهاي قابل اجرا",module,Magento_Braintree
 "Payment from Specific Countries","پرداخت از کشورهاي خاص",module,Magento_Braintree
+Type,نوع,module,Magento_Braintree
+Status,وضعيت,module,Magento_Bundle
+Thumbnail,"تصویر بندانگشتی",module,Magento_Bundle
+Type,نوع,module,Magento_Bundle
 CAPTCHA,كپچا,module,Magento_Captcha
 "Enable CAPTCHA in Admin","فعال كردن كپچا در مديريت",module,Magento_Captcha
 Font,فونت,module,Magento_Captcha
@@ -3347,6 +3430,7 @@ Forms,"فرم ها",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","لطفا مشخص كنيد 8 نماد را. محدوده مجاز (e.g. 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","نمادهاي مورد استفاده در كپچا",module,Magento_Captcha
 "Case Sensitive","حساس به حروف کوچک",module,Magento_Captcha
+"Inventory Section","بخش موجودی",module,Magento_CatalogInventory
 Inventory,موجودی,module,Magento_CatalogInventory
 "Stock Options","گزینه‌های موجودی",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","کاهش موجودی هنگامی که سفارش داده شد",module,Magento_CatalogInventory
@@ -3363,8 +3447,17 @@ Backorders,"برگشت سفارش",module,Magento_CatalogInventory
 "Automatically Return Credit Memo Item to Stock","برگرداندن خودکار آیتم برگشتی به موجودی",module,Magento_CatalogInventory
 "Enable Qty Increments","فعال کردن افزايش تعداد",module,Magento_CatalogInventory
 "Qty Increments","افزایش تعداد",module,Magento_CatalogInventory
-Quantity,تعداد,module,Magento_CatalogInventory
+"Use Config Settings","استفاده از تنظیمات پیکربندی",module,Magento_CatalogInventory
+"Qty Uses Decimals","اعشاری‌های مصارف تعداد",module,Magento_CatalogInventory
 Start,شروع,module,Magento_CatalogRule
+Status,وضعيت,module,Magento_CatalogRule
+Active,فعال,module,Magento_CatalogRule
+Inactive,غیرفعال,module,Magento_CatalogRule
+Back,بازگشت,module,Magento_CatalogRule
+"Rule Information","اطلاعات قانون",module,Magento_CatalogRule
+Actions,کنش‌ها,module,Magento_CatalogRule
+Yes,بله,module,Magento_CatalogRule
+No,خیر,module,Magento_CatalogRule
 "Popular Search Terms","عبارات جستجوی محبوب",module,Magento_CatalogSearch
 "Catalog Search","جستجوی کاتالوگ",module,Magento_CatalogSearch
 "Minimal Query Length","کمینه طول جستار",module,Magento_CatalogSearch
@@ -3380,7 +3473,8 @@ Title,عنوان,module,Magento_CatalogWidget
 Template,قالب,module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","طول عمر کش (ثانیه)",module,Magento_CatalogWidget
 Conditions,شرایط,module,Magento_CatalogWidget
-Thumbnail,"تصویر بندانگشتی",module,Magento_Catalog
+Inventory,موجودی,module,Magento_Catalog
+"Catalog Section","بخش کاتالوگ",module,Magento_Catalog
 "List Mode","سبک لیستی",module,Magento_Catalog
 "Products per Page on Grid Allowed Values","محصولات بر صفحه در مقادیر مجاز مشبک",module,Magento_Catalog
 Comma-separated.,"جدا شده با کاما.",module,Magento_Catalog
@@ -3405,13 +3499,13 @@ Comma-separated.,"جدا شده با کاما.",module,Magento_Catalog
 "Date Fields Order","ترتیب فیلدهای تاریخ",module,Magento_Catalog
 "Time Format","ساختار زمان",module,Magento_Catalog
 "Year Range","بازه‌ی سال",module,Magento_Catalog
-"Product Image Watermarks","واترمارک‌های تصویر محصول",module,Magento_Catalog
 "Use Static URLs for Media Content in WYSIWYG for Catalog","استفاده از URLهای ایستا برای محتوای مدیا در WYSIWYG برای کاتالوگ",module,Magento_Catalog
 "Top Level Category","دسته‌ی سطح بالا",module,Magento_Catalog
 "Product Flat Data","داده‌ی یکنواخت محصول",module,Magento_Catalog
 "Reorganize EAV product structure to flat structure","دوباره سازمان دادن ساختار EAV محصول به ساختار یکنواخت",module,Magento_Catalog
 "Category Flat Data","داده‌ی یکنواخت دسته",module,Magento_Catalog
 "Reorganize EAV category structure to flat structure","دوباره سازمان دادن ساختار EAV دسته به ساختار یکنواخت",module,Magento_Catalog
+"Category Products","محصولات دسته",module,Magento_Catalog
 "Indexed category/products association","وابستگی دسته/محصولات فهرست شده",module,Magento_Catalog
 "Product Categories","دسته‌های محصول",module,Magento_Catalog
 "Index product prices","فهرست سازی قیمت‌های محصول",module,Magento_Catalog
@@ -3441,6 +3535,21 @@ Template,قالب,module,Magento_Catalog
 "Category Link Block Template","قالب بلاکی لینک دسته",module,Magento_Catalog
 "Category Link Inline Template","قالب اینلاین لینک دسته",module,Magento_Catalog
 Set,"قرار دادن",module,Magento_Catalog
+Content,محتوا,module,Magento_Catalog
+"Display Settings","تنظیمات صفحه نمایش",module,Magento_Catalog
+"Layered Navigation Price Step","دسته بندی قیمت محصولات",module,Magento_Catalog
+"URL Key","کلید URL",module,Magento_Catalog
+"Meta Title","عنوان متا",module,Magento_Catalog
+"Meta Keywords","فوق واژه",module,Magento_Catalog
+"Meta Description","فوق توصیف",module,Magento_Catalog
+Design,طراحی,module,Magento_Catalog
+"Use Parent Category Settings","استفاده از تنظیمات دسته مادر",module,Magento_Catalog
+Layout,آرایش,module,Magento_Catalog
+"Layout Update XML","به روز رسانی XML آرایش",module,Magento_Catalog
+"Product Image Watermarks","واترمارک‌های تصویر محصول",module,Magento_Catalog
+Image,تصویر,module,Magento_Catalog
+"Attribute Label","برچسب ویژگی",module,Magento_Catalog
+System,سيستم,module,Magento_Catalog
 "All Store Views","همه‌ی نماهای فروشگاه",module,Magento_Catalog
 "Change status","تغییر وضعیت",module,Magento_Catalog
 Enable,فعال,module,Magento_Catalog
@@ -3464,12 +3573,10 @@ Details,جزییات,module,Magento_Catalog
 "Send Payment Failed Email Copy To","فرستادن کپی ایمیل پرداخت ناموفق به",module,Magento_Checkout
 "Separate by "","".","جداکردن با "","".",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","روش فرستادن کپی ایمیل پرداخت ناموفق",module,Magento_Checkout
-Shipping,ارسال,module,Magento_Checkout
 "Order Total","مجموع سفارش",module,Magento_Checkout
-"Shipping Address","آدرس ارسال",module,Magento_Checkout
-"Save Address","ذخیره‌ی آدرس",module,Magento_Checkout
-Cancel,لغو,module,Magento_Checkout
 "Thank you for your purchase!","از شما برای خریدتان سپاس گزاریم!",module,Magento_Checkout
+"Media Gallery","گالري رسانه",module,Magento_Cms
+"Content Management","مدیریت محتوا",module,Magento_Cms
 "CMS Home Page","مديريت صفحه‌ی خانگی",module,Magento_Cms
 "CMS No Route Page","مديريت صفحه‌ی بی مسیر",module,Magento_Cms
 "CMS No Cookies Page","مديريت صفحه‌ی بدون کوکی‌های",module,Magento_Cms
@@ -3477,7 +3584,6 @@ Cancel,لغو,module,Magento_Checkout
 "Browser Capabilities Detection","تشخیص قابلیت‌های مرورگر",module,Magento_Cms
 "Redirect to CMS-page if Cookies are Disabled","هدایت مجدد به صفحه‌ی CMSاگر کوکی‌ها ناممکن شده‌اند",module,Magento_Cms
 "Show Notice if JavaScript is Disabled","نمایش توجه اگر JavaScript ناممکن شده است",module,Magento_Cms
-"Content Management","مدیریت محتوا",module,Magento_Cms
 "WYSIWYG Options","گزینه‌های WYSIWYG",module,Magento_Cms
 "Enable WYSIWYG Editor","ویرایشگر WYSIWYG ممکن",module,Magento_Cms
 "CMS Page Link","مديريت لینک صفحه‌",module,Magento_Cms
@@ -3495,10 +3601,37 @@ Template,قالب,module,Magento_Cms
 Block,بلاک,module,Magento_Cms
 "Select Block...","انتخاب بلاک...",module,Magento_Cms
 "CMS Static Block Default Template","مديريت قالب پیش فرض بلاک ایستا",module,Magento_Cms
+"General Information","اطلاعات عمومی",module,Magento_Cms
+"Block Title","عنوان بلاک",module,Magento_Cms
+"Page Information","اطلاعات صفحه",module,Magento_Cms
+Content,محتوا,module,Magento_Cms
+"Content Heading","سرنویس محتوا",module,Magento_Cms
+"Meta Title","عنوان متا",module,Magento_Cms
+"Meta Keywords","فوق واژه",module,Magento_Cms
+"Meta Description","فوق توصیف",module,Magento_Cms
+Design,طراحی,module,Magento_Cms
+"Layout Update XML","به روز رسانی XML آرایش",module,Magento_Cms
+From,از,module,Magento_Cms
+To,به,module,Magento_Cms
+"-- Please Select --","-- لطفا انتخاب کنيد --",module,Magento_Cms
 Disable,"از کار انداختن",module,Magento_Cms
 Enable,فعال,module,Magento_Cms
+"Custom Theme","تم سفارشی",module,Magento_Cms
+"Custom Layout","آرایش سفارشی",module,Magento_Cms
+"Magento Admin","مدیر مجنتو",module,Magento_Config
+Dashboard,داشبورد,module,Magento_Config
+"Manage Stores","مدیریت فروشگاه‌ها",module,Magento_Config
+"Advanced Section","بخش پیشرفته",module,Magento_Config
+"Advanced Admin Section","بخش مدیریت پیشرفته",module,Magento_Config
+"Design Section","بخش طراحی",module,Magento_Config
+"General Section","بخش عمومی",module,Magento_Config
+"System Section","بخش سیستم",module,Magento_Config
+"Currency Setup Section","بخش راه اندازی ارز",module,Magento_Config
+"Developer Section","بخش گسترش دهنده",module,Magento_Config
+"Web Section","بخش وب",module,Magento_Config
+"Store Email Addresses Section","بخش آدرس‌های ایمیل فروشگاه",module,Magento_Config
+"Email to a Friend","ایمیل به یک دوست",module,Magento_Config
 "Configurable Product Image","تصویر محصول قابل پیکربندی",module,Magento_ConfigurableProduct
-Status,وضعيت,module,Magento_ConfigurableProduct
 ID,شناسه,module,Magento_ConfigurableProduct
 Thumbnail,"تصویر بندانگشتی",module,Magento_ConfigurableProduct
 "Attribute Code","کد ویژگی",module,Magento_ConfigurableProduct
@@ -3509,6 +3642,7 @@ Visible,نمایان,module,Magento_ConfigurableProduct
 Scope,دامنه,module,Magento_ConfigurableProduct
 Searchable,"قابل جستجو",module,Magento_ConfigurableProduct
 Comparable,"قابل مقایسه",module,Magento_ConfigurableProduct
+"Contacts Section","بخش تماس‌ها",module,Magento_Contact
 Contacts,تماس‌ها,module,Magento_Contact
 "Contact Us","تماس با ما",module,Magento_Contact
 "Enable Contact Us","تماس با ما ممکن",module,Magento_Contact
@@ -3527,7 +3661,9 @@ Contacts,تماس‌ها,module,Magento_Contact
 "History Cleanup Every","پاک سازی پیشینه هر",module,Magento_Cron
 "Success History Lifetime","طول عمر پیشینه‌ی موفقیت",module,Magento_Cron
 "Failure History Lifetime","طول عمر پیشینه‌ی شکست",module,Magento_Cron
+Currency,ارز,module,Magento_CurrencySymbol
 "Excel XML","اکسل XML",module,Magento_CustomerImportExport
+"Customers Section","بخش مشتریان",module,Magento_Customer
 "Customer Configuration","پیکربندی مشتری",module,Magento_Customer
 "Account Sharing Options","گزینه‌های تسهیم حساب",module,Magento_Customer
 "Share Customer Accounts","تسهیم حساب‌های مشتری",module,Magento_Customer
@@ -3629,6 +3765,7 @@ Service,سرویس‌ها,module,Magento_Directory
 "Start Time","زمان شروع",module,Magento_Directory
 "Installed Currencies","ارزهای نصب شده",module,Magento_Directory
 "Weight Unit","واحد وزن",module,Magento_Directory
+Downloads,دانلودها,module,Magento_Downloadable
 "Downloadable Product Options","گزینه‌های محصول دانلودی",module,Magento_Downloadable
 "Order Item Status to Enable Downloads","وضعیت آیتم سفارش برای دانلودهای ممکن",module,Magento_Downloadable
 "Default Maximum Number of Downloads","پیش فرض بیشینه تعداد دانلودها",module,Magento_Downloadable
@@ -3639,13 +3776,13 @@ Service,سرویس‌ها,module,Magento_Directory
 "Disable Guest Checkout if Cart Contains Downloadable Items","اگر سبد شامل آیتم‌های دانلودی بود تسویه‌ی مهمان را ناممکن کن",module,Magento_Downloadable
 "Guest checkout will only work with shareable.","تسویه‌ی مهمان تنها با قابل تسهیم کار خواهد کرد.",module,Magento_Downloadable
 "EAV types and attributes","انواع و ویژگی های EAV",module,Magento_Eav
-"Logo Image","تصویر لوگو",module,Magento_Email
-"Logo Image Alt","Alt تصویر لوگو",module,Magento_Email
 "No Templates Found","قالبی یافت نشد",module,Magento_Email
 ID,شناسه,module,Magento_Email
 Subject,موضوع,module,Magento_Email
 "Template Type","نوع قالب",module,Magento_Email
 Action,اقدام,module,Magento_Email
+"Logo Image","تصویر لوگو",module,Magento_Email
+"Logo Image Alt","Alt تصویر لوگو",module,Magento_Email
 "Enabled for Checkout","کوکی ها برای پرداخت",module,Magento_Fedex
 Title,عنوان,module,Magento_Fedex
 "Account ID","شناسه‌ی حساب",module,Magento_Fedex
@@ -3681,12 +3818,15 @@ Enable,فعال,module,Magento_GoogleAdwords
 Enable,فعال,module,Magento_GoogleAnalytics
 "Account Number","شماره‌ی حساب",module,Magento_GoogleAnalytics
 "Grouped Product Image","تصویر محصول گروه شده",module,Magento_GroupedProduct
+Type,نوع,module,Magento_GroupedProduct
+Quantity,تعداد,module,Magento_GroupedProduct
 ID,شناسه,module,Magento_ImportExport
 User,كاربر,module,Magento_ImportExport
 Summary,خلاصه,module,Magento_ImportExport
 Description,توصیف,module,Magento_Indexer
 Mode,حالت,module,Magento_Indexer
 Status,وضعيت,module,Magento_Indexer
+Extensions,"افزونه ها",module,Magento_Integration
 "Cleanup Settings","تنظيمات پاکسازی",module,Magento_Integration
 "Cleanup Probability","احتمال پاکسازی",module,Magento_Integration
 "Expiration Period","دوره انقضا",module,Magento_Integration
@@ -3715,6 +3855,7 @@ Options,"گزينه ها",module,Magento_Multishipping
 "Review Order","بازبینی سفارش",module,Magento_Multishipping
 "Select Shipping Method","انتخاب روش ارسال",module,Magento_Multishipping
 General,عمومی,module,Magento_NewRelicReporting
+"Newsletter Section","بخش خبرنامه",module,Magento_Newsletter
 "Subscription Options","گزینه‌های اشتراک",module,Magento_Newsletter
 "Allow Guest Subscription","اجازه‌ی اشتراک به مهمان",module,Magento_Newsletter
 "Need to Confirm","نیازمند تایید",module,Magento_Newsletter
@@ -3782,8 +3923,16 @@ Condition,شرط,module,Magento_OfflineShipping
 "Include Virtual Products in Price Calculation","شامل محصولات مجازی در محاسبه‌ی قیمت",module,Magento_OfflineShipping
 Export,صادرات,module,Magento_OfflineShipping
 Import,"وارد کردن",module,Magento_OfflineShipping
+"Free Shipping","ارسال رایگان",module,Magento_OfflineShipping
 "Minimum Order Amount","کمینه مبلغ سفارش",module,Magento_OfflineShipping
+"-- Please Select --","-- لطفا انتخاب کنيد --",module,Magento_OfflineShipping
+"Payment Methods Section","بخش روش‌های پرداخت",module,Magento_Payment
+"Payment Services","سرویس‌های پرداخت",module,Magento_Payment
 "Payment Methods","روش های پرداخت",module,Magento_Payment
+Fetch,آوردن,module,Magento_Paypal
+Actions,کنش‌ها,module,Magento_Paypal
+Manage,مدیریت,module,Magento_Paypal
+"Place Order Using Billing Agreements","سفارش دادن با استفاده از قراردادهای صورت حساب",module,Magento_Paypal
 "Merchant Location","محل سكونت فروشنده",module,Magento_Paypal
 "Merchant Country","کشور فروشنده",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","اگر مشخص نشده باشد، کشور پیش فرض از پیکربندی عمومی استفاده خواهد شد",module,Magento_Paypal
@@ -3813,6 +3962,7 @@ Position,موقعيت,module,Magento_Paypal
 Size,اندازه,module,Magento_Paypal
 "Basic Settings - PayPal Express Checkout","تنظیمات اولیه - PayPal Express Checkout",module,Magento_Paypal
 Title,عنوان,module,Magento_Paypal
+"It is recommended to set this value to ""PayPal"" per store views.","توصیه می‌شود این مقدار را به ""پی پال"" بر نماهای فروشگاه تنظیم کنید.",module,Magento_Paypal
 "Sort Order","ترتيب سفارش",module,Magento_Paypal
 "Payment Action","اقدام پرداخت",module,Magento_Paypal
 "Authorization Honor Period (days)","مجوز دوره افتخار(روز)",module,Magento_Paypal
@@ -3878,7 +4028,6 @@ User,كاربر,module,Magento_Paypal
 "Website Payments Pro Hosted Solution","پرداخت های حرفه ای میزبانی وب سایت",module,Magento_Paypal
 "Payments Pro Hosted Solution","راه حل پرداخت حرفه ای میزبانی",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","تنظیمات اولیه - PayPal Payments Pro Hosted Solution",module,Magento_Paypal
-"It is recommended to set this value to ""PayPal"" per store views.","توصیه می‌شود این مقدار را به ""پی پال"" بر نماهای فروشگاه تنظیم کنید.",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","نمایش پرداخت اکسپرس در مرحله اطلاعات پرداخت",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","پرداخت های حرفه ای میزبانی وب سایت و پرداخت سريع",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","تنظیمات اولیه - PayPal Website Payments Pro Hosted Solution",module,Magento_Paypal
@@ -3904,6 +4053,12 @@ Frequency,تکرار,module,Magento_ProductAlert
 "Error Email Recipient","گیرنده‌ی ایمیل خطا",module,Magento_ProductAlert
 "Error Email Sender","فرستنده‌ی ایمیل خطا",module,Magento_ProductAlert
 "Error Email Template","قالب ایمیل خطا",module,Magento_ProductAlert
+Carts,سبدها,module,Magento_Quote
+"Search Terms","عبارات جستجو",module,Magento_Reports
+Refunds,استردادها,module,Magento_Reports
+"Order Total","مجموع سفارش",module,Magento_Reports
+New,جدید,module,Magento_Reports
+Ordered,"سفارش داده شده",module,Magento_Reports
 "Recently Viewed/Compared Products","محصولات اخیرا مشاهد/مقایسه شده",module,Magento_Reports
 "Show for Current","نمایش برای کنونی",module,Magento_Reports
 "Default Recently Viewed Products Count","تعداد محصولات اخیرا بازدید شده‌ی پیش فرض",module,Magento_Reports
@@ -3935,10 +4090,36 @@ undefined,"تعریف نشده",module,Magento_Reports
 "Allow Guests to Write Reviews","به مهمانان برای نوشتن نظرات اجازه بده",module,Magento_Review
 Active,فعال,module,Magento_Review
 Inactive,غیرفعال,module,Magento_Review
+"RSS Feeds Section","RSS بخش فيدهاي",module,Magento_Rss
 "RSS Feeds","فیدهای RSS",module,Magento_Rss
 "Rss Config","پیکربندی Rss",module,Magento_Rss
 "Enable RSS","RSS ممکن",module,Magento_Rss
 "Auto Generated Specific Coupon Codes","توليد خودكار كد كوپن هاي ويژه",module,Magento_SalesRule
+Priority,اولویت,module,Magento_SalesRule
+Back,بازگشت,module,Magento_SalesRule
+"Rule Information","اطلاعات قانون",module,Magento_SalesRule
+"Rule Name","نام قانون",module,Magento_SalesRule
+Description,توصیف,module,Magento_SalesRule
+Websites,"وب سایت ها",module,Magento_SalesRule
+"Customer Groups","گروه‌های مشتری",module,Magento_SalesRule
+Coupon,کوپن,module,Magento_SalesRule
+"Use Auto Generation","استفاده از ایجاد خودکار",module,Magento_SalesRule
+"Uses per Coupon","استفاده بر کوپن",module,Magento_SalesRule
+"Uses per Customer","استفاده بر مشتری",module,Magento_SalesRule
+From,از,module,Magento_SalesRule
+To,به,module,Magento_SalesRule
+"Public In RSS Feed","عمومی در فید RSS",module,Magento_SalesRule
+Apply,اعمال,module,Magento_SalesRule
+"Discount Amount","مبلغ تخفیف",module,Magento_SalesRule
+"Maximum Qty Discount is Applied To","بیشینه تخفیف تعداد اعمال شده است برای",module,Magento_SalesRule
+"Discount Qty Step (Buy X)","مرحله‌ی تعداد تخفیف (خرید X)",module,Magento_SalesRule
+"Apply to Shipping Amount","اعمال برای مبلغ ارسال",module,Magento_SalesRule
+"Default Rule Label for All Store Views","برچسب قانون پیش فرض برای همه‌ی نماهای فروشگاه",module,Magento_SalesRule
+Create,ایجاد,module,Magento_Sales
+"Accept or Deny Payment","پذیرش یا رد پرداخت",module,Magento_Sales
+"Send Sales Emails","ارسال ایمیل‌های فروش‌ها",module,Magento_Sales
+"Sales Section","بخش فروش‌ها",module,Magento_Sales
+"Sales Emails Section","بخش ایمیل‌های فروش‌ها",module,Magento_Sales
 General,عمومی,module,Magento_Sales
 "Hide Customer IP","مخفی کردن IP مشتري",module,Magento_Sales
 "Checkout Totals Sort Order","ترتیب ردیف جمع‌های تسویه",module,Magento_Sales
@@ -4012,6 +4193,9 @@ Name,نام,module,Magento_Sales
 Website,"وب سایت",module,Magento_Sales
 "Invoice Date","تاریخ فاکتور",module,Magento_Sales
 "Default Status","وضعیت پیش فرض",module,Magento_Sales
+"Item Status","وضعیت آیتم",module,Magento_Sales
+"Original Price","قيمت اصلي",module,Magento_Sales
+"Tax Percent","درصد ماليات",module,Magento_Sales
 "All Store Views","همه‌ی نماهای فروشگاه",module,Magento_Sales
 "PDF Credit Memos","PDF یادداشت‌های بستانکاری",module,Magento_Sales
 "Print Invoices","چاپ فاکتورها",module,Magento_Sales
@@ -4024,10 +4208,12 @@ Refunds,استردادها,module,Magento_Sales
 "Excel XML","اکسل XML",module,Magento_Search
 ID,شناسه,module,Magento_Search
 Hits,بازدید,module,Magento_Search
-Delete,حذف,module,Magento_Search
 "Are you sure?","شما اطمینان دارید؟",module,Magento_Search
 Action,اقدام,module,Magento_Search
 Edit,ويرايش,module,Magento_Search
+Scope,دامنه,module,Magento_Search
+"Store View","نمايش فروشگاه",module,Magento_Search
+Website,"وب سایت",module,Magento_Search
 "Email to a Friend","ایمیل به یک دوست",module,Magento_SendFriend
 "Email Templates","قالب‌های ایمیل",module,Magento_SendFriend
 Enabled,فعال,module,Magento_SendFriend
@@ -4036,6 +4222,8 @@ Enabled,فعال,module,Magento_SendFriend
 "Max Recipients","بیشینه گیرندگان",module,Magento_SendFriend
 "Max Products Sent in 1 Hour","بیشینه محصولات در 1 ساعت ارسال شد",module,Magento_SendFriend
 "Limit Sending By","محدودیت ارسال با",module,Magento_SendFriend
+"Shipping Settings Section","بخش تنظیمات ارسال",module,Magento_Shipping
+"Shipping Methods Section","بخش روش‌های ارسال",module,Magento_Shipping
 "Shipping Settings","تنظیمات ارسال",module,Magento_Shipping
 Origin,مبدا,module,Magento_Shipping
 Country,كشور,module,Magento_Shipping
@@ -4063,7 +4251,9 @@ Configuration,پیکربندی,module,Magento_Store
 Layouts,"طرح بندی",module,Magento_Store
 "Blocks HTML output","بلوک های خروجی HTML",module,Magento_Store
 "Collections Data","مجموعه داده ها",module,Magento_Store
+Image,تصویر,module,Magento_Swatches
 "Excel XML","اکسل XML",module,Magento_TaxImportExport
+"Tax Section","بخش مالیات",module,Magento_Tax
 "Tax Classes","کلاس‌های مالیات",module,Magento_Tax
 "Tax Class for Shipping","کلاس مالیات برای ارسال",module,Magento_Tax
 "Calculation Settings","تنظیمات محاسبه",module,Magento_Tax
@@ -4094,24 +4284,28 @@ Rate,نرخ,module,Magento_Tax
 "Your credit card will be charged for","مبلغی که از کارت اعتباری شما کم خواهد شد",module,Magento_Tax
 Empty,خالی,module,Magento_Theme
 "1 column","1 ستونی",module,Magento_Theme
+Configuration,پیکربندی,module,Magento_Theme
+"Default Robots","روبوت‌های پیش فرض",module,Magento_Theme
+"This will be included before head closing tag in page HTML.","این پیش از بستن تگ head در صفحه‌ی HTML را شامل خواهد بود.",module,Magento_Theme
+"Default Description","توصیف پیش فرض",module,Magento_Theme
+"Default welcome msg!","پیام خوش آمد گویی پیش فرض!",module,Magento_Theme
 "HTML Head","ابتدای HTML",module,Magento_Theme
 "Favicon Icon","Favicon آیکون",module,Magento_Theme
 "Default Title","عنوان پیش فرض",module,Magento_Theme
 "Title Prefix","پیشوند عنوان",module,Magento_Theme
 "Title Suffix","پسوند عنوان",module,Magento_Theme
-"Default Description","توصیف پیش فرض",module,Magento_Theme
 "Default Keywords","کلمات کلیدی پیش فرض",module,Magento_Theme
-"This will be included before head closing tag in page HTML.","این پیش از بستن تگ head در صفحه‌ی HTML را شامل خواهد بود.",module,Magento_Theme
 "Display Demo Store Notice","نمایش اخطار نمونه‌ی نمایشی فروشگاه",module,Magento_Theme
-"Default Robots","روبوت‌های پیش فرض",module,Magento_Theme
 Header,هدر,module,Magento_Theme
 "Logo Image","تصویر لوگو",module,Magento_Theme
-"Logo Image Alt","Alt تصویر لوگو",module,Magento_Theme
 "Welcome Text","متن خوش‌آمدگویی",module,Magento_Theme
+"Logo Image Alt","Alt تصویر لوگو",module,Magento_Theme
 Footer,فوتر,module,Magento_Theme
-Copyright,"حق نشر",module,Magento_Theme
 "Miscellaneous HTML","HTML گوناگون",module,Magento_Theme
-"Default welcome msg!","پیام خوش آمد گویی پیش فرض!",module,Magento_Theme
+Copyright,"حق نشر",module,Magento_Theme
+Website,"وب سایت",module,Magento_Theme
+Store,فروشگاه,module,Magento_Theme
+"Store View","نمايش فروشگاه",module,Magento_Theme
 "2 columns with left bar","2 ستونی با نوار سمت چپ",module,Magento_Theme
 "2 columns with right bar","2 ستونی با نوار سمت راست",module,Magento_Theme
 "3 columns","3 ستونی",module,Magento_Theme
@@ -4151,6 +4345,7 @@ Mode,حالت,module,Magento_Ups
 Debug,"اشکال زدايي کردن",module,Magento_Ups
 Action,اقدام,module,Magento_UrlRewrite
 Edit,ويرايش,module,Magento_UrlRewrite
+"User Roles","وظایف کاربر",module,Magento_User
 ID,شناسه,module,Magento_User
 Username,"نام کاربری",module,Magento_User
 "Enabled for Checkout","کوکی ها برای پرداخت",module,Magento_Usps
@@ -4182,6 +4377,8 @@ Debug,"اشکال زدايي کردن",module,Magento_Usps
 "Sort Order","ترتيب سفارش",module,Magento_Usps
 "Variable ID","شناسه‌ی متغیر",module,Magento_Variable
 Name,نام,module,Magento_Variable
+"Manage Customers","مدیریت مشتریان",module,Magento_Webapi
+"Delete Customer","حذف مشتری",module,Magento_Webapi
 "Default Response Charset","چارست پاسخ پیش فرض",module,Magento_Webapi
 "Web Services Configuration","خدمات وب پیکربندی",module,Magento_Webapi
 "Fixed Product Taxes","مالیات های محصول ثابت",module,Magento_Weee
@@ -4215,9 +4412,3 @@ Action,اقدام,module,Magento_Wishlist
 Configure,پیکربندی,module,Magento_Wishlist
 Delete,حذف,module,Magento_Wishlist
 "Product Details and Comment","جزئیات محصول و نظر",module,Magento_Wishlist
-Summary,خلاصه,theme,frontend/Magento/blank
-"Account Dashboard","داشبورد حساب",theme,frontend/Magento/blank
-"Account Information","اطلاعات حساب",theme,frontend/Magento/blank
-"Address Book","کتاب آدرس",theme,frontend/Magento/blank
-Account,حساب,theme,frontend/Magento/blank
-Settings,تنظیمات,theme,frontend/Magento/blank
