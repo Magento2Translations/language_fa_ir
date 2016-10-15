@@ -1,15 +1,15 @@
-"Read Details","خواندن جزییات",module,Magento_AdminNotification
-"Mark as Read","نشانه گذاری خوانده شده",module,Magento_AdminNotification
-"Are you sure?","شما اطمینان دارید؟",module,Magento_AdminNotification
-Remove,برداشتن,module,Magento_AdminNotification
+"Read Details","خواندن جزئیات",module,Magento_AdminNotification
+"Mark as Read","علامت گذاری به عنوان خوانده شده",module,Magento_AdminNotification
+"Are you sure?","آیا شما مطمئن هستید?",module,Magento_AdminNotification
+Remove,حذف,module,Magento_AdminNotification
 "Messages Inbox","صندوق پیام‌های دریافتی",module,Magento_AdminNotification
 "You have %1 new system messages","شما %1 پیام جدید دارید",module,Magento_AdminNotification
 "You have %1 new system message","شما %1 پیام جدید دارید",module,Magento_AdminNotification
-"Incoming Message","پیام ورودی",module,Magento_AdminNotification
+"Incoming Message","پیام های دریافتی",module,Magento_AdminNotification
 close,بستن,module,Magento_AdminNotification
-Notifications,اطلاعیه‌ها,module,Magento_AdminNotification
+Notifications,"اطلاعیه ها",module,Magento_AdminNotification
 "The message has been marked as Read.","پیام بعنوان خوانده شده علامتگذاری شده است.",module,Magento_AdminNotification
-"We couldn't mark the notification as Read because of an error.","ما نتوانستیم این اعلان را به عنوان خوانده شده علامت گزاری کنیم.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","ما نتوانستیم این اعلان را به عنوان خوانده شده علامت گزاری کنیم زیرا آن یک خطا میباشد.",module,Magento_AdminNotification
 "Please select messages.","لطفا پیام‌ها را انتخاب کنید.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","%1 اعلان به عنوان خوانده شده مشخص شده است.",module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","%1 اعلان حذف شده است.",module,Magento_AdminNotification
