@@ -27,6 +27,7 @@ notice,توجه,module,Magento_AdminNotification
 "Wrong message type","نوع پيام نادرست",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","لطفا برو به <a href=""%1""> مدیریت کش</a> و آنرا از نو بساز.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","همگام سازی ذخیره سازی رسانه ها کامل شده است.",module,Magento_AdminNotification
+"Close popup","بستن پنجره",module,Magento_AdminNotification
 Close,بستن,module,Magento_AdminNotification
 "Critical System Messages","پیام های مهم سیستمی",module,Magento_AdminNotification
 "Major System Messages","پیغام های سیستم عمده",module,Magento_AdminNotification
@@ -247,6 +248,7 @@ Database,"پایگاه داده",module,Magento_Backup
 "Create Backup","ايجاد پشتيبان",module,Magento_Backup
 Country,كشور,module,Magento_Braintree
 "Allowed Credit Card Types","انواع کارت‌های اعتباری مجاز",module,Magento_Braintree
+"Add Rule","افزودن قانون",module,Magento_Braintree
 "Credit Card Type","نوع کارت اعتباري",module,Magento_Braintree
 "Credit Card Number","شماره کارت اعتباري",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","نوع کارت اعتباری برای این روش پرداخت مجاز نیست.",module,Magento_Braintree
@@ -1083,6 +1085,7 @@ Shipped,"ارسال شده",module,Magento_Downloadable
 Canceled,لغو,module,Magento_Downloadable
 Refunded,مسترد,module,Magento_Downloadable
 "Attribute Properties","مشخصات ویژگی",module,Magento_Eav
+"Default label","برچسب پیش فرض",module,Magento_Eav
 "Attribute Code","کد ویژگی",module,Magento_Eav
 "Catalog Input Type for Store Owner","نوع ورودی کاتالوگ برای مالک فروشگاه",module,Magento_Eav
 "Values Required","مقادیر لازم شده",module,Magento_Eav
@@ -1165,6 +1168,7 @@ City,شهر,module,Magento_Email
 "Duplicate Of Template Name","تکثیر نام قالب",module,Magento_Email
 "Load default template","بارگذاری قالب پیش فرض",module,Magento_Email
 Template,قالب,module,Magento_Email
+"Change Encryption Key","تغییر کلید رمزگذاری",module,Magento_EncryptionKey
 "Encryption Key","کلید رمزنگاری",module,Magento_EncryptionKey
 No,خیر,module,Magento_EncryptionKey
 Yes,بله,module,Magento_EncryptionKey
@@ -1736,6 +1740,7 @@ Continue,ادامه,module,Magento_Paypal
 Price:,قیمت:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts","لغو اشتراک از همه‌ی هشدارهای محصول",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","لغو اشتراک از همه‌ی هشدارهای موجودی",module,Magento_ProductAlert
+Url,آدرس,module,Magento_ProductVideo
 "The requested Payment Method is not available.","درخواست روش پرداخت در دسترس نیست.",module,Magento_Quote
 "Grand Total","جمع کل",module,Magento_Quote
 "Shipping & Handling","ارسال و رسیدگی",module,Magento_Quote
@@ -2870,6 +2875,7 @@ None,"هیچ یک",module,Magento_Usps
 "Validation has failed.","تایید اعتبار ناموفق بود.",module,Magento_Variable
 "Insert Variable...","قرادادن متغیر...",module,Magento_Variable
 "Add Tax","افزودن مالیات",module,Magento_Weee
+"Delete Tax","حذف مالیات",module,Magento_Weee
 "All Websites","همه‌ی وب‌سایت‌ها",module,Magento_Weee
 "Including FPT only","شامل FPT تنها",module,Magento_Weee
 "Including FPT and FPT description","شامل FPT و توصیف FPT",module,Magento_Weee
