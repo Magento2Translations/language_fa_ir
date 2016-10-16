@@ -1,15 +1,15 @@
-"Read Details","خواندن جزییات",module,Magento_AdminNotification
-"Mark as Read","نشانه گذاری خوانده شده",module,Magento_AdminNotification
-"Are you sure?","شما اطمینان دارید؟",module,Magento_AdminNotification
-Remove,برداشتن,module,Magento_AdminNotification
+"Read Details","خواندن جزئیات",module,Magento_AdminNotification
+"Mark as Read","علامت گذاری به عنوان خوانده شده",module,Magento_AdminNotification
+"Are you sure?","آیا شما مطمئن هستید?",module,Magento_AdminNotification
+Remove,حذف,module,Magento_AdminNotification
 "Messages Inbox","صندوق پیام‌های دریافتی",module,Magento_AdminNotification
 "You have %1 new system messages","شما %1 پیام جدید دارید",module,Magento_AdminNotification
 "You have %1 new system message","شما %1 پیام جدید دارید",module,Magento_AdminNotification
-"Incoming Message","پیام ورودی",module,Magento_AdminNotification
+"Incoming Message","پیام های دریافتی",module,Magento_AdminNotification
 close,بستن,module,Magento_AdminNotification
-Notifications,اطلاعیه‌ها,module,Magento_AdminNotification
+Notifications,"اطلاعیه ها",module,Magento_AdminNotification
 "The message has been marked as Read.","پیام بعنوان خوانده شده علامتگذاری شده است.",module,Magento_AdminNotification
-"We couldn't mark the notification as Read because of an error.","ما نتوانستیم این اعلان را به عنوان خوانده شده علامت گزاری کنیم.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","ما نتوانستیم این اعلان را به عنوان خوانده شده علامت گزاری کنیم زیرا آن یک خطا میباشد.",module,Magento_AdminNotification
 "Please select messages.","لطفا پیام‌ها را انتخاب کنید.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","%1 اعلان به عنوان خوانده شده مشخص شده است.",module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","%1 اعلان حذف شده است.",module,Magento_AdminNotification
@@ -37,6 +37,7 @@ notice,توجه,module,Magento_AdminNotification
 "System messages","پیام سیستم",module,Magento_AdminNotification
 Close,بستن,module,Magento_AdminNotification
 "See All (","دیدن همه",module,Magento_AdminNotification
+"Please correct the data sent.","لطفا اطلاعات صحیح ارسال کنید.",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","هيچ نوع محصول در دسترس براي صادرات وجود ندارد",module,Magento_AdvancedPricingImportExport
 authorize,"اجازه دادن",module,Magento_Authorizenet
 "authorize and capture","اجازه و گرفتن",module,Magento_Authorizenet
@@ -255,6 +256,7 @@ Exclude,استثنا,module,Magento_Backup
 "Create Backup","ايجاد پشتيبان",module,Magento_Backup
 Country,كشور,module,Magento_Braintree
 "Allowed Credit Card Types","انواع کارت‌های اعتباری مجاز",module,Magento_Braintree
+"Add Rule","افزودن قانون",module,Magento_Braintree
 Authorize,اجازه,module,Magento_Braintree
 "Authorize and Capture","تصویب کردن و ضبط",module,Magento_Braintree
 "--Please Select--","--لطفا انتخاب کنيد--",module,Magento_Braintree
@@ -844,6 +846,7 @@ Images,تصاویر,module,Magento_ConfigurableProduct
 "Browse Files...","مرور فایل های ...",module,Magento_ConfigurableProduct
 Select,انتخاب,module,Magento_ConfigurableProduct
 Cancel,لغو,module,Magento_ConfigurableProduct
+"Page not found.","صفحه یافت نشد.",module,Magento_Contact
 "* Required Fields","* زمينه هاي مورد نياز",module,Magento_Contact
 Name,نام,module,Magento_Contact
 Email,ايميل,module,Magento_Contact
@@ -853,6 +856,7 @@ Daily,روزانه,module,Magento_Cron
 Weekly,هفتگی,module,Magento_Cron
 Monthly,ماهیانه,module,Magento_Cron
 "Save Currency Rates","ذخیره‌ی نرخ‌های ارز",module,Magento_CurrencySymbol
+Options,"گزينه ها",module,Magento_CurrencySymbol
 Reset,بازنشانی,module,Magento_CurrencySymbol
 Import,"وارد کردن",module,Magento_CurrencySymbol
 "Manage Currency Rates","مديريت نرخ ارز",module,Magento_CurrencySymbol
@@ -863,6 +867,7 @@ Import,"وارد کردن",module,Magento_CurrencySymbol
 System,سيستم,module,Magento_CurrencySymbol
 "Old rate:","نرخ قدیم:",module,Magento_CurrencySymbol
 "Please enter a valid email.","لطفا یک ایمیل معتبر وارد نمایید.",module,Magento_CustomerImportExport
+"Sign Out",خروج,module,Magento_Customer
 "Sign In",ورود,module,Magento_Customer
 "You have not set a default shipping address.","شما آدرس ارسال پیش فرضی تنظیم نکرده‌اید.",module,Magento_Customer
 "You have not set a default billing address.","شما آدرس صورت حساب پیش فرضی تنظیم نکرده‌اید.",module,Magento_Customer
@@ -1074,6 +1079,7 @@ Documents,اسناد,module,Magento_Dhl
 None,"هیچ یک",module,Magento_Dhl
 State/Province,"ایالت / استان",module,Magento_Directory
 "--Please Select--","--لطفا انتخاب کنيد--",module,Magento_Directory
+lbs,پوند,module,Magento_Directory
 "FATAL ERROR:","خطاى جدى:",module,Magento_Directory
 WARNING:,اخطار:,module,Magento_Directory
 "Country and Format Type combination should be unique","کشور و نوع ساختار ترکیب باید یکتا باشند",module,Magento_Directory
@@ -1081,6 +1087,7 @@ Currency,ارز,module,Magento_Directory
 Continue,ادامه,module,Magento_Directory
 Error,خطا,module,Magento_DownloadableImportExport
 "Downloadable Information","اطلاعات دانلود",module,Magento_Downloadable
+"Add New Link","افزودن لینک جدید",module,Magento_Downloadable
 "Upload Files","آپلود فایل",module,Magento_Downloadable
 "All Files","همه‌ی فایل‌ها",module,Magento_Downloadable
 Unlimited,"نا محدود",module,Magento_Downloadable
@@ -1145,6 +1152,7 @@ Canceled,لغو,module,Magento_Downloadable
 Refunded,مسترد,module,Magento_Downloadable
 "Attribute Properties","مشخصات ویژگی",module,Magento_Eav
 "Default Label","برچسب پیش فرض",module,Magento_Eav
+"Default label","برچسب پیش فرض",module,Magento_Eav
 "Attribute Code","کد ویژگی",module,Magento_Eav
 "Catalog Input Type for Store Owner","نوع ورودی کاتالوگ برای مالک فروشگاه",module,Magento_Eav
 "Values Required","مقادیر لازم شده",module,Magento_Eav
@@ -1228,6 +1236,7 @@ City,شهر,module,Magento_Email
 Title,عنوان,module,Magento_Email
 "Load default template","بارگذاری قالب پیش فرض",module,Magento_Email
 Template,قالب,module,Magento_Email
+"Change Encryption Key","تغییر کلید رمزگذاری",module,Magento_EncryptionKey
 "Encryption Key","کلید رمزنگاری",module,Magento_EncryptionKey
 No,خیر,module,Magento_EncryptionKey
 Yes,بله,module,Magento_EncryptionKey
@@ -1369,6 +1378,7 @@ Remove,برداشتن,module,Magento_LayeredNavigation
 "Shop By","خرید توسط",module,Magento_LayeredNavigation
 "Clear All","پاک کردن همه",module,Magento_LayeredNavigation
 "Shopping Options","گزینه‌های خرید",module,Magento_LayeredNavigation
+Partners,همکاران,module,Magento_Marketplace
 Synchronize,"هم زمان سازی",module,Magento_MediaStorage
 Synchronizing...,"در حال همگام سازی...",module,Magento_MediaStorage
 "File System","سیستم فایل",module,Magento_MediaStorage
@@ -1848,6 +1858,7 @@ Continue,ادامه,module,Magento_Paypal
 Price:,قیمت:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts","لغو اشتراک از همه‌ی هشدارهای محصول",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","لغو اشتراک از همه‌ی هشدارهای موجودی",module,Magento_ProductAlert
+Url,آدرس,module,Magento_ProductVideo
 Title,عنوان,module,Magento_ProductVideo
 Description,توصیف,module,Magento_ProductVideo
 "The requested Payment Method is not available.","درخواست روش پرداخت در دسترس نیست.",module,Magento_Quote
@@ -2058,6 +2069,7 @@ Summary,خلاصه,module,Magento_Review
 "Average Customer Rating","میانگین امتیاز مشتری",module,Magento_Review
 "Product Rating:","امتیاز محصول:",module,Magento_Review
 "Back to Product Reviews","بازگشت به نظرات محصول",module,Magento_Review
+"Page not found.","صفحه یافت نشد.",module,Magento_Rss
 "Miscellaneous Feeds","فیدهای گوناگون",module,Magento_Rss
 "Get Feed","دریافت فید",module,Magento_Rss
 Apply,اعمال,module,Magento_Rule
@@ -2828,6 +2840,7 @@ Save,ذخيره,module,Magento_Tax
 "Grand Total Excl. Tax","جمع کل نهایی بی مالیات",module,Magento_Tax
 "Grand Total Incl. Tax","جمع کل نهایی با مالیات",module,Magento_Tax
 Back,بازگشت,module,Magento_Theme
+"Save and Continue","ذخیره و ادامه",module,Magento_Theme
 Default,"پیش فرض",module,Magento_Theme
 Themes,تم‌ها,module,Magento_Theme
 "Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_Theme
@@ -3075,6 +3088,7 @@ Actions,کنش‌ها,module,Magento_Vault
 Delete,حذف,module,Magento_Vault
 Message,پیام,module,Magento_Webapi
 "Add Tax","افزودن مالیات",module,Magento_Weee
+"Delete Tax","حذف مالیات",module,Magento_Weee
 "All Websites","همه‌ی وب‌سایت‌ها",module,Magento_Weee
 "Including FPT only","شامل FPT تنها",module,Magento_Weee
 "Including FPT and FPT description","شامل FPT و توصیف FPT",module,Magento_Weee
