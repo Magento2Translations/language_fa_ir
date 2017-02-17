@@ -2695,20 +2695,14 @@ Error:,خطا:,module,Magento_Shipping
 "contact us","تماس با ما",module,Magento_Shipping
 Info:,اطلاعات:,module,Magento_Shipping
 Track:,پیگیری:,module,Magento_Shipping
-Status:,وضعیت:,module,Magento_Shipping
 "Delivered on:","تحویل شده در:",module,Magento_Shipping
-"Signed by:","امضا شده توسط:",module,Magento_Shipping
-"Delivered to:","تحویل شده به:",module,Magento_Shipping
-"Shipped or billed on:","ارسال یا قبض شده در:",module,Magento_Shipping
-"Service Type:","نوع سرویس:",module,Magento_Shipping
-Weight:,وزن:,module,Magento_Shipping
+"There is no tracking available for this shipment.","هیچ پیگیری در دسترسی برای این محموله وجود ندارد.",module,Magento_Shipping
+"There is no tracking available.","هیچ پیگیری در دسترسی وجود ندارد.",module,Magento_Shipping
+"Close Window","بستن پنجره",module,Magento_Shipping
 Location,موقعیت,module,Magento_Shipping
 Date,تاریخ,module,Magento_Shipping
 "Local Time","زمان محلی",module,Magento_Shipping
 Description,توصیف,module,Magento_Shipping
-"There is no tracking available for this shipment.","هیچ پیگیری در دسترسی برای این محموله وجود ندارد.",module,Magento_Shipping
-"There is no tracking available.","هیچ پیگیری در دسترسی وجود ندارد.",module,Magento_Shipping
-"Close Window","بستن پنجره",module,Magento_Shipping
 "Save & Generate","ذخیره و تولید",module,Magento_Sitemap
 "Edit Sitemap","Edit ویرایش نقشه سایت",module,Magento_Sitemap
 "New Sitemap","نقشه سایت جدید",module,Magento_Sitemap
@@ -3194,7 +3188,6 @@ Close,بستن,module,Magento_Checkout
 "Recently added item(s)","آیتم(های) اخیرا افزوده شده",module,Magento_Checkout
 "Options Details","تنظیمات جزئیات",module,Magento_Checkout
 Remove,برداشتن,module,Magento_Checkout
-"No Payment Methods","بدون روش پرداخت",module,Magento_Checkout
 "Payment Information","اطلاعات پرداخت",module,Magento_Checkout
 "Place Order","ایجاد سفارش",module,Magento_Checkout
 "Forgot an Item?","فراموشی یک آیتم؟",module,Magento_Checkout
@@ -3950,18 +3943,16 @@ Manage,مدیریت,module,Magento_Paypal
 "Merchant Location","محل سكونت فروشنده",module,Magento_Paypal
 "Merchant Country","کشور فروشنده",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","اگر مشخص نشده باشد، کشور پیش فرض از پیکربندی عمومی استفاده خواهد شد",module,Magento_Paypal
+"PayPal Express Checkout","پرداخت سريع پي پال",module,Magento_Paypal
+"Add another payment method to your existing solution or as a stand-alone option.","اضافه کردن یکی دیگر از روش پرداخت به راه حل های موجود شما و یا به عنوان یک گزینه مستقل.",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","امن به همراه راه حل های پرداخت برای کسب و کار شما را انتخاب کنید.",module,Magento_Paypal
 "Payments Pro and Express Checkout","پرداخت حرفه اي و پرداخت سريع",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","تنظیمات اولیه - PayPal Payments Pro",module,Magento_Paypal
-"PayPal Payment Gateways","دروازه پرداخت پي پال",module,Magento_Paypal
-"PayPal Express Checkout","پرداخت سريع پي پال",module,Magento_Paypal
-"Add another payment method to your existing solution or as a stand-alone option.","اضافه کردن یکی دیگر از روش پرداخت به راه حل های موجود شما و یا به عنوان یک گزینه مستقل.",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","قبول پرداخت به طور كامل همراه صفحه سفارشي.",module,Magento_Paypal
-"PayPal Payment Solutions","راه حل های پرداخت پی پال",module,Magento_Paypal
 "Express Checkout","تسویه‌ی سریع",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","اضافه کردن پی پال به عنوان یک روش پرداخت اضافی به صفحه پرداخت شما.",module,Magento_Paypal
 "Required PayPal Settings","تنظیمات مورد نیاز پی پال",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account","ایمیل با حساب فروشنده‌ی پی پال متناظر شد",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)","ایمیل با حساب فروشنده‌ی پی پال متناظر شد (اختیاری)",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","حساب پی پال ندارید؟ به سادگی آدرس ایمیل‌تان را وارد نمایید.",module,Magento_Paypal
 "API Authentication Methods","API روش های تأیید هویت",module,Magento_Paypal
 "API Username","نام کاربری API",module,Magento_Paypal
@@ -4022,7 +4013,6 @@ Schedule,"زمان بندی",module,Magento_Paypal
 "Header Border Color","رنگ حاشیه‌ی هدر",module,Magento_Paypal
 "2-pixel perimeter around the header space.","2 پیکسل پیرامون اطراف فضای هدر.",module,Magento_Paypal
 "Page Background Color","رنگ پس زمینه‌ی صفحه",module,Magento_Paypal
-"Payments Advanced (Includes Express Checkout)","پرداخت  پیشرفته (شامل پرداخت سريع)",module,Magento_Paypal
 Partner,شریک,module,Magento_Paypal
 Vendor,فروشنده,module,Magento_Paypal
 User,كاربر,module,Magento_Paypal
@@ -4034,8 +4024,6 @@ User,كاربر,module,Magento_Paypal
 "CVV Entry is Editable","CVV ورود قابل ویرایش",module,Magento_Paypal
 "Require CVV Entry","نیاز به ورود CVV",module,Magento_Paypal
 "Send Email Confirmation","ارسال تأییدیه به ایمیل",module,Magento_Paypal
-"Payflow Link (Includes Express Checkout)","لینک Payflow(شامل پرداخت سريع)",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account (Optional)","ایمیل با حساب فروشنده‌ی پی پال متناظر شد (اختیاری)",module,Magento_Paypal
 "Enable Payflow Link","فعال کردن لینک Payflow",module,Magento_Paypal
 "Enable Express Checkout","فعال کردن پرداخت سريع",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","تنظیمات اولیه - PayPal Payflow Link",module,Magento_Paypal
@@ -4048,7 +4036,6 @@ User,كاربر,module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","تنظیمات اولیه - PayPal Payflow Pro",module,Magento_Paypal
 "Credit Card Settings","تنظیمات کارت اعتباری",module,Magento_Paypal
 "Allowed Credit Card Types","انواع کارت‌های اعتباری مجاز",module,Magento_Paypal
-"Payflow Pro (Includes Express Checkout)","Payflow Pro (شامل پرداخت سريع)",module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro و پرداخت سريع",module,Magento_Paypal
 "Persistent Shopping Cart","سبد خرید مداوم",module,Magento_Persistent
 "General Options","گزینه های عمومی",module,Magento_Persistent
