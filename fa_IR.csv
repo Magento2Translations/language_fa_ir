@@ -265,6 +265,8 @@ Authorize,اجازه,module,Magento_Braintree
 "Credit Card Number","شماره کارت اعتباري",module,Magento_Braintree
 "Expiration Date","تاريخ انقضا",module,Magento_Braintree
 "Card Verification Number","تاييد شماره كارت",module,Magento_Braintree
+Actions,کنش‌ها,module,Magento_Braintree
+Delete,حذف,module,Magento_Braintree
 "Percent Discount","درصد تخفیف",module,Magento_Bundle
 "-- Select --","-- انتخاب --",module,Magento_Bundle
 Dynamic,پویا,module,Magento_Bundle
@@ -589,7 +591,6 @@ Search,جستجو,module,Magento_Catalog
 Dropdown,کشویی,module,Magento_Catalog
 "As low as","از حداقل",module,Magento_Catalog
 Images,تصاویر,module,Magento_Catalog
-"Tier Price","ردیف قیمت",module,Magento_Catalog
 "Customer Group","گروه مشتری",module,Magento_Catalog
 To,به,module,Magento_Catalog
 Done,اعمال,module,Magento_Catalog
@@ -702,6 +703,7 @@ State/Province,"ایالت / استان",module,Magento_Checkout
 "Out of stock","در انبار موجود نیست",module,Magento_Checkout
 Checkout,پرداخت,module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","لطفا پیش از دادن سفارش با همه‌ی این شرایط و ضوابط موافقت نمایید.",module,Magento_Checkout
+"Payment Method","روش پرداخت",module,Magento_Checkout
 "The product does not exist.","محصول وجود ندارد.",module,Magento_Checkout
 "Display number of items in cart","نمایش تعداد آیتم‌ها در سبد",module,Magento_Checkout
 "Display item quantities","نمایش مقادیر آیتم",module,Magento_Checkout
@@ -957,12 +959,6 @@ Customers,مشتریان,module,Magento_Customer
 "Manage Customers","مدیریت مشتریان",module,Magento_Customer
 "Online Customers","مشتریان آنلاین",module,Magento_Customer
 "This account is not confirmed.","این حساب تایید شده نیست.",module,Magento_Customer
-"Please enter the first name.","لطفا نام را وارد کنید.",module,Magento_Customer
-"Please enter the last name.","طفا نام خانوادگی را وارد کنید.",module,Magento_Customer
-"Please enter the street.","لطفا خيابان را وارد كنيد.",module,Magento_Customer
-"Please enter the city.","لطفا شهر را وارد كنيد.",module,Magento_Customer
-"Please enter the zip/postal code.","لطفا کد پستی را وارد کنید.",module,Magento_Customer
-"Please enter the country.","لطفا كشور را وارد كنيد.",module,Magento_Customer
 "Please enter the state/province.","لطفا شهرستان / استان را وارد كنيد.",module,Magento_Customer
 Global,سراسری,module,Magento_Customer
 "Per Website","بر وب‌سایت",module,Magento_Customer
@@ -2149,7 +2145,6 @@ Auto,خودکار,module,Magento_SalesRule
 Subtotal,"جمع جز",module,Magento_SalesRule
 "Total Items Quantity","تعداد کل آیتم‌ها",module,Magento_SalesRule
 "Total Weight","مجموع وزن",module,Magento_SalesRule
-"Payment Method","روش پرداخت",module,Magento_SalesRule
 "Shipping Method","روش ارسال",module,Magento_SalesRule
 "Shipping Postcode","کد پستی ارسال",module,Magento_SalesRule
 "Shipping Region","منطقه ارسال",module,Magento_SalesRule
@@ -2965,9 +2960,6 @@ Store,فروشگاه,module,Magento_UrlRewrite
 "URL Rewrite Management","مدیریت بازنویسی URL",module,Magento_UrlRewrite
 "Add URL Rewrite","افزودن بازنویسی URL",module,Magento_UrlRewrite
 Custom,سفارشی,module,Magento_UrlRewrite
-"For category","برای رده",module,Magento_UrlRewrite
-"For product","برای محصول",module,Magento_UrlRewrite
-"Create URL Rewrite:","ایجاد بازنویسی URL:",module,Magento_UrlRewrite
 "The URL Rewrite has been saved.","بازنویسی URL ذخیره شد.",module,Magento_UrlRewrite
 No,خیر,module,Magento_UrlRewrite
 "Temporary (302)","موقت (302)",module,Magento_UrlRewrite
@@ -3041,7 +3033,6 @@ Letter,نامه,module,Magento_Usps
 Flat,یکنواخت,module,Magento_Usps
 Parcel,بسته,module,Magento_Usps
 Variable,متغیر,module,Magento_Usps
-"Flat-Rate Box","نرخ یکنواخت جعبه",module,Magento_Usps
 "Flat-Rate Envelope","نرخ یکنواخت پاکت",module,Magento_Usps
 Rectangular,مستطیلی,module,Magento_Usps
 Non-rectangular,نامستطیلی,module,Magento_Usps
@@ -3184,8 +3175,6 @@ Update,"بروز رساني",module,Magento_Checkout
 Cancel,لغو,module,Magento_Checkout
 "Save in address book","ذخیره در دفترچه آدرس",module,Magento_Checkout
 Login,ورود,module,Magento_Checkout
-Close,بستن,module,Magento_Checkout
-"Recently added item(s)","آیتم(های) اخیرا افزوده شده",module,Magento_Checkout
 "Options Details","تنظیمات جزئیات",module,Magento_Checkout
 Remove,برداشتن,module,Magento_Checkout
 "Payment Information","اطلاعات پرداخت",module,Magento_Checkout
@@ -3196,7 +3185,6 @@ Remove,برداشتن,module,Magento_Checkout
 "New Address","آدرس جدید",module,Magento_Checkout
 "Shipping Methods","روش‌های ارسال",module,Magento_Checkout
 Next,بعدی,module,Magento_Checkout
-"Items in Cart","آیتم‌های درون سبد",module,Magento_Checkout
 "View Details","مشاهده جزئیات",module,Magento_Checkout
 Email:,ایمیل:,module,Magento_Customer
 Password:,"کلمه عبور:",module,Magento_Customer
@@ -3550,7 +3538,6 @@ Content,محتوا,module,Magento_Catalog
 "Meta Keywords","فوق واژه",module,Magento_Catalog
 "Meta Description","فوق توصیف",module,Magento_Catalog
 Design,طراحی,module,Magento_Catalog
-"Use Parent Category Settings","استفاده از تنظیمات دسته مادر",module,Magento_Catalog
 Layout,آرایش,module,Magento_Catalog
 "Layout Update XML","به روز رسانی XML آرایش",module,Magento_Catalog
 "Product Image Watermarks","واترمارک‌های تصویر محصول",module,Magento_Catalog
@@ -3573,7 +3560,6 @@ Details,جزییات,module,Magento_Catalog
 "Display Cart Summary","نمایش خلاصه‌ی سبد",module,Magento_Checkout
 "Shopping Cart Sidebar","نوارکناری سبد خرید",module,Magento_Checkout
 "Display Shopping Cart Sidebar","نمایش نوارکناری سبد خرید",module,Magento_Checkout
-"Maximum Display Recently Added Item(s)","بیشینه‌ی نمایش آیتم(های) اخیرا افزوده شده",module,Magento_Checkout
 "Payment Failed Emails","ایمیل‌های پرداخت ناموفق",module,Magento_Checkout
 "Payment Failed Email Sender","فرستنده‌ی ایمیل پرداخت ناموفق",module,Magento_Checkout
 "Payment Failed Template","قالب پرداخت ناموفق",module,Magento_Checkout
