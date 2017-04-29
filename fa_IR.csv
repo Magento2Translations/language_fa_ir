@@ -3185,6 +3185,7 @@ Remove,برداشتن,module,Magento_Checkout
 "New Address","آدرس جدید",module,Magento_Checkout
 "Shipping Methods","روش‌های ارسال",module,Magento_Checkout
 Next,بعدی,module,Magento_Checkout
+"Items in Cart","آیتم‌های درون سبد",module,Magento_Checkout
 "View Details","مشاهده جزئیات",module,Magento_Checkout
 Email:,ایمیل:,module,Magento_Customer
 Password:,"کلمه عبور:",module,Magento_Customer
