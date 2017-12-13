@@ -1,20 +1,20 @@
 "Read Details","خواندن جزئیات",module,Magento_AdminNotification
-"Mark as Read","علامت گذاری به عنوان خوانده شده",module,Magento_AdminNotification
-"Are you sure?","آیا شما مطمئن هستید?",module,Magento_AdminNotification
+"Mark as Read","خوانده شده",module,Magento_AdminNotification
+"Are you sure?","آیا شما مطمئن هستید؟",module,Magento_AdminNotification
 Remove,حذف,module,Magento_AdminNotification
 "Messages Inbox","صندوق پیام‌های دریافتی",module,Magento_AdminNotification
-"You have %1 new system messages","شما %1 پیام جدید دارید",module,Magento_AdminNotification
-"You have %1 new system message","شما %1 پیام جدید دارید",module,Magento_AdminNotification
+"You have %1 new system messages","شما %1 پیام سیستمی جدید دارید",module,Magento_AdminNotification
+"You have %1 new system message","شما %1 پیام سیستمی جدید دارید",module,Magento_AdminNotification
 "Incoming Message","پیام های دریافتی",module,Magento_AdminNotification
 close,بستن,module,Magento_AdminNotification
-Notifications,"اطلاعیه ها",module,Magento_AdminNotification
-"The message has been marked as Read.","پیام بعنوان خوانده شده علامتگذاری شده است.",module,Magento_AdminNotification
-"We couldn't mark the notification as Read because of an error.","ما نتوانستیم این اعلان را به عنوان خوانده شده علامت گزاری کنیم زیرا آن یک خطا میباشد.",module,Magento_AdminNotification
+Notifications,اطلاعیه‌ها,module,Magento_AdminNotification
+"The message has been marked as Read.","این پیام را به «خوانده شده» تغییر بده.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","به دلیل بروز خطا، نتوانستیم اطلاعیه به «خوانده شده» تغییر دهیم.",module,Magento_AdminNotification
 "Please select messages.","لطفا پیام‌ها را انتخاب کنید.",module,Magento_AdminNotification
-"A total of %1 record(s) have been marked as Read.","%1 اعلان به عنوان خوانده شده مشخص شده است.",module,Magento_AdminNotification
-"Total of %1 record(s) have been removed.","%1 اعلان حذف شده است.",module,Magento_AdminNotification
-"We couldn't remove the messages because of an error.","ما نتوانستیم پیام ها به دلیل خطا را حذف کنیم.",module,Magento_AdminNotification
-"The message has been removed.","پیام برداشته شد.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","کلاً %1 اطلاعیه به «خوانده شده» تغییر پیدا کرد.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","تعداد %1 اطلاعیه حذف شد.",module,Magento_AdminNotification
+"We couldn't remove the messages because of an error.","به دلیل بروز خطا، نتوانستیم پیام‌ها را حذف کنیم.",module,Magento_AdminNotification
+"The message has been removed.","پیام حذف شد.",module,Magento_AdminNotification
 "1 Hour","1 ساعت",module,Magento_AdminNotification
 "2 Hours","2 ساعت",module,Magento_AdminNotification
 "6 Hours","6 ساعت",module,Magento_AdminNotification
@@ -23,22 +23,28 @@ Notifications,"اطلاعیه ها",module,Magento_AdminNotification
 critical,بحرانی,module,Magento_AdminNotification
 major,عمده,module,Magento_AdminNotification
 minor,جزئی,module,Magento_AdminNotification
-notice,توجه,module,Magento_AdminNotification
+notice,اطلاعیه,module,Magento_AdminNotification
 "Wrong message type","نوع پيام نادرست",module,Magento_AdminNotification
-"Wrong notification ID specified.","شماره شناسه مشخص شده اشتباه است.",module,Magento_AdminNotification
-"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} برای استفاده در محیط تولید اعلام آدرس پایه نا امن توصیه نمی شود. ما به شدت توصیه میکنیم این مقدار را در بخش <a href=""%1""> پیکربندی مگنتو </a> تغییردهید.",module,Magento_AdminNotification
-"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","لطفا برو به <a href=""%1""> مدیریت کش</a> و آنرا از نو بساز.",module,Magento_AdminNotification
-"We were unable to synchronize one or more media files. Please refer to the log file for details.","ما قادر به همگام سازی یک یا چند فایل های رسانه ای نیستیم. لطفا برای جزئیات بیشتربه فایل وقایع مراحعه نمایید.",module,Magento_AdminNotification
-"Synchronization of media storages has been completed.","همگام سازی ذخیره سازی رسانه ها کامل شده است.",module,Magento_AdminNotification
-"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","وب سرور شما نادرست است تنظیم و اجازه می دهد تا دسترسی های غیر مجاز به پرونده های حساس. با مدیر سرور خود تماس بگیرید.",module,Magento_AdminNotification
-"System Messages:","پیامِ سیستم:",module,Magento_AdminNotification
+"Wrong notification ID specified.","شناسه اطلاعیه اشتباه است.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","استفاده از آدرس {{base_url}} در بخش آدرس پایه مجنتو، در محیط عملیاتی توصیه نمی‌شود. اکیدا توصیه می‌کنیم که از بخش <a href=""%1""> پیکربندی </a>، این آدرس را تغییر دهید.",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","لطفا به صفحه <a href=""%1""> مدیریت حافظه موقت </a> مراجعه و آنها را نوسازی کنید.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","تعدادی از رسانه‌ها قابل به همگام سازی نیستند. برای مشاهده جزئیات لطفا به فایل وقایع مراجعه کنید.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","همگام سازی فضای رسانه‌ها کامل شده است.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","تنظیمات سرور وب شما نادرست است و بدون شناسایی کاربر، اجازه دسترسی غیر مجاز اسناد حساس را می‌دهد. لطفا با مدیر سرور خود تماس بگیرید.",module,Magento_AdminNotification
+"System Messages:","پیام‌های سیستمی:",module,Magento_AdminNotification
 "Critical System Messages","پیام های مهم سیستمی",module,Magento_AdminNotification
 "Major System Messages","پیغام های سیستم عمده",module,Magento_AdminNotification
 "System messages","پیام سیستم",module,Magento_AdminNotification
 Close,بستن,module,Magento_AdminNotification
 "See All (","دیدن همه",module,Magento_AdminNotification
 "Please correct the data sent.","لطفا اطلاعات صحیح ارسال کنید.",module,Magento_AdvancedPricingImportExport
+"Entity type model '%1' is not found","مدل نوع entity '٪ 1' یافت نشد",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","هيچ نوع محصول در دسترس براي صادرات وجود ندارد",module,Magento_AdvancedPricingImportExport
+"We can't find the role for the user you wanted.","ما نمیتوانیم نقش کاربر مورد نظر خود را پیدا کنیم.",module,Magento_Authorization
+"We can't process your order right now. Please try again later.","اکنون نمیتوانیم سفارش شما را پردازش کنیم. لطفا بعدا دوباره امتحان کنید.",module,Magento_Authorizenet
+"amount %1","مقدار %1",module,Magento_Authorizenet
+failed.,ناموفق.,module,Magento_Authorizenet
+successful.,موفق.,module,Magento_Authorizenet
 authorize,"اجازه دادن",module,Magento_Authorizenet
 "authorize and capture","اجازه و گرفتن",module,Magento_Authorizenet
 capture,گرفتن,module,Magento_Authorizenet
@@ -48,6 +54,8 @@ void,"از درجه اعتبار ساقط",module,Magento_Authorizenet
 "Payment capturing error.","خطا گرفتن پرداخت.",module,Magento_Authorizenet
 "Invalid amount for refund.","مقدار نامعتبر برای بازپرداخت.",module,Magento_Authorizenet
 "Payment refunding error.","خطا استرداد پرداخت.",module,Magento_Authorizenet
+"This payment didn't work out because we can't find this order.","این پرداخت کار نمی کند زیرا ما نمیتوانیم این سفارش را پیدا کنیم.",module,Magento_Authorizenet
+"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","چیزی که اشتباه شده است: مبلغ پرداخت شده با مقدار سفارش منطبق نیست. لطفا این را اصلاح کنید و دوباره امتحان کنید.",module,Magento_Authorizenet
 "Authorize Only","تنها تصویب کردن",module,Magento_Authorizenet
 "Authorize and Capture","تصویب کردن و ضبط",module,Magento_Authorizenet
 "Credit Card Type","نوع کارت اعتباري",module,Magento_Authorizenet
@@ -170,6 +178,7 @@ Export,صادرات,module,Magento_Backend
 "Please select items.","لطفا آیتم‌ها را انتخاب نمایید.",module,Magento_Backend
 Submit,ارایه,module,Magento_Backend
 "You have logged out.","شما خارج شدید.",module,Magento_Backend
+"Specified cache type(s) don't exist: %1","نوع کش (ها) مشخص شده وجود ندارد:٪ 1",module,Magento_Backend
 "The image cache was cleaned.","کش تصویر پاک شد.",module,Magento_Backend
 "An error occurred while clearing the image cache.","یک خطا در حین پاک سازی کش تصویر رخ داد.",module,Magento_Backend
 "The JavaScript/CSS cache has been cleaned.","کش JavaScript/CSS پاک شد.",module,Magento_Backend
@@ -177,12 +186,14 @@ Submit,ارایه,module,Magento_Backend
 "The Magento cache storage has been flushed.","مخزن کش مجنتو تخلیه شد.",module,Magento_Backend
 "Cache Management","مدیریت کش",module,Magento_Backend
 Dashboard,داشبورد,module,Magento_Backend
+"We can't refresh lifetime statistics.","ما نمیتوانیم آمارهای طول عمر را بازنشانی کنیم.",module,Magento_Backend
 Error,خطا,module,Magento_Backend
 "No search modules were registered","ماژول جستجویی ثبت نشده بود",module,Magento_Backend
 "Please make sure that all global admin search modules are installed and activated.","لطفا اطمینان حاصل نمایید که همه‌ی ماژول‌های جستجوی مدیریت سراسری نصب و فعال شده هستند.",module,Magento_Backend
 "An error occurred while saving account.","یک خطا در حین ذخیره سازی حساب رخ داد.",module,Magento_Backend
 System,سيستم,module,Magento_Backend
 "Manage Stores","مدیریت فروشگاه‌ها",module,Magento_Backend
+"We can't create a backup right now. Please try again later.","اکنون نمی توانیم یک پشتیبان ایجاد کنیم. لطفا بعدا دوباره امتحان کنید.",module,Magento_Backend
 "This store cannot be deleted.","این فروشگاه نمی‌تواند حذف شود.",module,Magento_Backend
 "This store view cannot be deleted.","این نمای فروشگاه نمی‌تواند حذف شود.",module,Magento_Backend
 "Store View","نمايش فروشگاه",module,Magento_Backend
@@ -211,6 +222,7 @@ Close,بستن,module,Magento_Backend
 Previous,قبلی,module,Magento_Backend
 Next,بعدی,module,Magento_Backend
 Time,زمان,module,Magento_Backend
+"Please confirm scope switching. All data that hasn't been saved will be lost.","لطفا تغییر دامنه را تایید کنید تمام داده هایی که ذخیره نشده اند از بین خواهند رفت.",module,Magento_Backend
 "Additional Cache Management","مدیریت کش اضافی",module,Magento_Backend
 "Flush Catalog Images Cache","تخلیه‌ی کش تصاویر کاتالوگ",module,Magento_Backend
 "Flush JavaScript/CSS Cache","تخلیه‌ی کش JavaScript/CSS",module,Magento_Backend
@@ -233,15 +245,21 @@ Loading...,"بار گذاری...",module,Magento_Backend
 "System Backup","سیستم پشتیبان",module,Magento_Backup
 "Database and Media Backup","پشتيبان پايگاه داده و مديا",module,Magento_Backup
 "Database Backup","پشتيبان گيري پايگاه داده",module,Magento_Backup
+"We can't create the backup right now.","ما اکنون نمی توانیم پشتیبان را ایجاد کنیم.",module,Magento_Backup
 Backups,"پشتیبان ها",module,Magento_Backup
 System,سيستم,module,Magento_Backup
 Tools,ابزارها,module,Magento_Backup
 Backup,پشتیبان,module,Magento_Backup
+"We can't delete one or more backups.","ما نمی توانیم یک یا چند پشتیبان را حذف کنیم.",module,Magento_Backup
 failed,ناموفق,module,Magento_Backup
 successful,موفق,module,Magento_Backup
+"Can't load snapshot archive","قادر به بارگیری عکس فوری بایگانی نمی باشد",module,Magento_Backup
+"We can't find the backup file.","پرونده پشتیبان را پیدا نمی کنیم.",module,Magento_Backup
+"We can't connect to the FTP right now.","اکنون نمیتوانیم به FTP وصل شویم.",module,Magento_Backup
 Database,"پایگاه داده",module,Magento_Backup
 "Database and Media","پايگاه داده و مديا",module,Magento_Backup
 "System (excluding Media)","سیستم (به جز مدیا)",module,Magento_Backup
+"We can't save the Cron expression.","ما نمی توانیم عبارت Cron را ذخیره کنیم.",module,Magento_Backup
 "Backup Name","نام پشتيبان",module,Magento_Backup
 "Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","لطفا فقط از حروف (a-z یا A-Z), اعداد (0-9) یا فاصله در این فیلد استفاده کنید.",module,Magento_Backup
 Exclude,استثنا,module,Magento_Backup
@@ -281,11 +299,14 @@ SKU,"کد کالا",module,Magento_Bundle
 Price,قيمت,module,Magento_Bundle
 Delete,حذف,module,Magento_Bundle
 "Use Default Value","از مقدار پیش فرض استفاده کنید",module,Magento_Bundle
+"Requested bundle option product doesn't exist","درخواست گزینه بسته محصول وجود ندارد",module,Magento_Bundle
+"Requested option doesn't exist","درخواست گزینه مورد نظر وجود ندارد",module,Magento_Bundle
 "Price Range","بازه‌ی قیمت",module,Magento_Bundle
 "As Low as","از حداقل",module,Magento_Bundle
 Together,"با هم",module,Magento_Bundle
 Separately,جداگانه,module,Magento_Bundle
 "Please specify product option(s).","لطفا گزینه(ها)ی محصول را مشخص نمایید.",module,Magento_Bundle
+"We can't add this item to your shopping cart right now.","ما نمی توانیم این مورد در حال حاضر به سبد خرید اضافه کنیم.",module,Magento_Bundle
 Percent,درصد,module,Magento_Bundle
 Cancel,لغو,module,Magento_Bundle
 "Add Option","افزودن گزینه",module,Magento_Bundle
@@ -336,10 +357,21 @@ Always,هميشه,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>توجه</strong>: کد امنيتي به حروف حساس است.",module,Magento_Captcha
 "Reload captcha","بارگذاری دوباره كپچا",module,Magento_Captcha
 "Please type the letters below","لطفا حروف زير را تايپ کنيد",module,Magento_Captcha
+"Entity type model '%1' is not found","مدل نوع entity '٪ 1' یافت نشد",module,Magento_CatalogImportExport
+"File directory '%1' is not readable.","پرونده فهرست '%1' قابل خواندن نیست.",module,Magento_CatalogImportExport
+"File directory '%1' is not writable.","پرونده فهرست '%1' قابل نوشتن نیست.",module,Magento_CatalogImportExport
+"Value for 'price' sub attribute in 'store' attribute contains incorrect value","مقدار مربوط به ""قیمت"" در attribute ""store"" حاوی مقدار نادرست است",module,Magento_CatalogImportExport
+"Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: 'dropdown', 'checkbox'","مقدار attribute subtype 'type' در attribute 'custom_options' حاوی مقدار نادرست است، مقادیر قابل قبول عبارتند از: 'dropdown'، 'checkbox'",module,Magento_CatalogImportExport
+"Value for 'price' sub attribute in 'custom_options' attribute contains incorrect value","مقدار مشخصه زیر در 'price' در attribute 'custom_options' حاوی مقدار نادرست است",module,Magento_CatalogImportExport
+"Value for 'maximum characters' sub attribute in 'custom_options' attribute contains incorrect value","مقدار حداکثر کاراکتر در attribute 'custom_options' حاوی مقدار نادرست است",module,Magento_CatalogImportExport
+"Value for 'sort order' sub attribute in 'custom_options' attribute contains incorrect value","مقدار صفت مرتبه مرتب سازی در attribute 'custom_options' حاوی مقدار نادرست است",module,Magento_CatalogImportExport
+"Value for 'value price' sub attribute in 'custom_options' attribute contains incorrect value","مقدار مشخصه زیر در 'price' در attribute 'custom_options' حاوی مقدار نادرست است",module,Magento_CatalogImportExport
+"File '%1' was not found or has read restriction.","فایل '%1' یافت نشد یا محدودیت خواندن دارد.",module,Magento_CatalogImportExport
 "ALL GROUPS","همه‌ی گروه‌ها",module,Magento_CatalogInventory
 "Customer Group","گروه مشتری",module,Magento_CatalogInventory
 "Minimum Qty","حداقل تعداد",module,Magento_CatalogInventory
 "Add Minimum Qty","افزودن کمینه‌ی تعداد",module,Magento_CatalogInventory
+"We can't rebuild the index for an undefined product.","ما نمی توانیم شاخص را برای محصول نامشخص بازسازی کنیم.",module,Magento_CatalogInventory
 "The stock item for Product is not valid.","آیتم موجود برای محصول معتبر نیست.",module,Magento_CatalogInventory
 "The stock item for Product in option is not valid.","آیتم موجود برای محصول در اختیار معتبر نیست.",module,Magento_CatalogInventory
 "No Backorders","پیش سفارش‌ها خیر",module,Magento_CatalogInventory
@@ -347,6 +379,8 @@ Always,هميشه,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","اجازه‌ی تعداد زیر 0 و اخطار به مشتری",module,Magento_CatalogInventory
 "In Stock","در موجودي",module,Magento_CatalogInventory
 "Out of Stock","موجود نیست",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","ما درخواست ""٪ 1"" نداریم، اما ما٪ 2 باقیمانده را سفارش خواهیم داد.",module,Magento_CatalogInventory
+"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","ما ""٪ 1"" را در مقدار درخواستی نداریم، بنابراین ما٪ 2 باقیمانده را سفارش خواهیم داد.",module,Magento_CatalogInventory
 "Stock Status","وضعيت موجودي",module,Magento_CatalogInventory
 Quantity,تعداد,module,Magento_CatalogInventory
 "Product Name","نام محصول",module,Magento_CatalogInventory
@@ -361,17 +395,22 @@ Save,ذخيره,module,Magento_CatalogRule
 "Add New Rule","افزودن قانون جدید",module,Magento_CatalogRule
 "Apply Rules","اعمال قوانین",module,Magento_CatalogRule
 Conditions,شرایط,module,Magento_CatalogRule
+"Conditions (don't add conditions if rule is applied to all products)","شرایط (شرایط قانون را اضافه نکنید که به تمام محصولات اعمال می شود)",module,Magento_CatalogRule
 ID,شناسه,module,Magento_CatalogRule
 Type,نوع,module,Magento_CatalogRule
 "Attribute Set","ست وظيفه",module,Magento_CatalogRule
 SKU,"کد کالا",module,Magento_CatalogRule
 Product,محصول,module,Magento_CatalogRule
 Promotions,تبلیغات,module,Magento_CatalogRule
+"We can't apply the rules.","ما نمی توانیم قوانین را اعمال کنیم.",module,Magento_CatalogRule
+"We can't delete this rule right now. Please review the log and try again.","ما اکنون نمی توانیم این قانون را حذف کنیم. لطفا سعی کنید و دوباره امتحان کنید.",module,Magento_CatalogRule
+"We can't find a rule to delete.","ما نمی توانیم یک ویژگی را برای حذف پیدا کنیم.",module,Magento_CatalogRule
 "This rule no longer exists.","این قانون دیگر وجود ندارد.",module,Magento_CatalogRule
 "Edit Rule","ویرایش قانون",module,Magento_CatalogRule
 "New Rule","قانون جدید",module,Magento_CatalogRule
 Catalog,فهرست,module,Magento_CatalogRule
 Promo,تبلیغ,module,Magento_CatalogRule
+"We can't rebuild the index for an undefined product.","ما نمی توانیم شاخص را برای محصول نامشخص بازسازی کنیم.",module,Magento_CatalogRule
 "Update the Product","به روز رسانی محصول",module,Magento_CatalogRule
 "Rule price","قیمت اصل",module,Magento_CatalogRule
 "To Fixed Value","به مقدار ثابت",module,Magento_CatalogRule
@@ -396,6 +435,7 @@ Product,محصول,module,Magento_CatalogSearch
 "Search Settings","تنظیمات جستجو",module,Magento_CatalogSearch
 Search,جستجو,module,Magento_CatalogSearch
 "Advanced Search","جستجوی پیشرفته",module,Magento_CatalogSearch
+"We can't find any items matching these search criteria.","ما نمی توانیم مواردی را مطابق با این معیارهای جستجو پیدا کنیم.",module,Magento_CatalogSearch
 "Don't see what you're looking for?","چیزی را که به دنبال آن هستید نمی‌بینید؟",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","ايجاد دائم تغيير مسير URL قديمي""",module,Magento_CatalogUrlRewrite
 "Conditions Combination","ترکیب شرط‌ها",module,Magento_CatalogWidget
@@ -420,30 +460,51 @@ Position,موقعيت,module,Magento_Catalog
 Day,روز,module,Magento_Catalog
 Month,ماه,module,Magento_Catalog
 Year,سال,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""> <span>از</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""> <span>به</span></label>",module,Magento_Catalog
 [GLOBAL],[سراسری],module,Magento_Catalog
 [WEBSITE],[وب‌سایت],module,Magento_Catalog
 "[STORE VIEW]","[مشاهده فروشگاه]",module,Magento_Catalog
 "WYSIWYG Editor","ویرایشگر WYSIWYG",module,Magento_Catalog
 "Add Product","افزودن محصول",module,Magento_Catalog
+label,برچسب,module,Magento_Catalog
 "Product Attributes","ویژگی‌های محصول",module,Magento_Catalog
 "Add New Attribute","افزودن ویژگی جدید",module,Magento_Catalog
 Cancel,لغو,module,Magento_Catalog
 "Save Attribute","ذخیره‌ی ویژگی",module,Magento_Catalog
+"Save in New Attribute Set","ذخیره در مجموعه ویژگی جدید",module,Magento_Catalog
+"Enter Name for New Attribute Set","نام مجموعه ویژگی جدید را وارد کنید",module,Magento_Catalog
 "Save and Continue Edit","ذخيره و ادامه ويرايش",module,Magento_Catalog
 "Delete Attribute","حذف ویژگی",module,Magento_Catalog
+"Edit Product Attribute ""%1""","ویرایش ویژگی های محصول ""%1""",module,Magento_Catalog
 "New Product Attribute","ویژگی محصول جدید",module,Magento_Catalog
+"Advanced Attribute Properties","خصوصیات پیشرفته",module,Magento_Catalog
 "Attribute Code","کد ویژگی",module,Magento_Catalog
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","این در داخل استفاده می شود. اطمینان حاصل کنید که از فضاهای یا بیش از٪ 1 نشانه استفاده نکنید.",module,Magento_Catalog
 "Default Value","مقدار پیش فرض",module,Magento_Catalog
 "Unique Value","مقدار یکتا",module,Magento_Catalog
 "Unique Value (not shared with other products)","مقدار یکتا (با دیگر محصولات تسهیم شده نیست)",module,Magento_Catalog
+"Not shared with other products.","با محصولات دیگر به اشتراک گذاشته نشده است.",module,Magento_Catalog
 "Input Validation for Store Owner","ارزیابی ورودی برای مالک فروشگاه",module,Magento_Catalog
+"Add to Column Options","اضافه کردن به گزینه های ستون",module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of column options in the product grid.","انتخاب کنید ""بله"" را به این ویژگی اضافه کردن به لیست گزینه های ستون در جدول محصول.",module,Magento_Catalog
+"Use in Filter Options","استفاده از گزینه های فیلتر",module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of filter options in the product grid.","""بله"" را برای اضافه کردن این ویژگی به لیست گزینه های فیلتر در شبکه محصول انتخاب کنید.",module,Magento_Catalog
 "Store View","نمايش فروشگاه",module,Magento_Catalog
 Website,"وب سایت",module,Magento_Catalog
 Global,سراسری,module,Magento_Catalog
 Scope,دامنه,module,Magento_Catalog
+"Declare attribute value saving scope.","اعلام دامنه‌ی ذخیره‌ی مقدار ویژگی.",module,Magento_Catalog
+"Storefront Properties","ویژگی های فروشگاه",module,Magento_Catalog
+"Use in Search","استفاده در جستجو",module,Magento_Catalog
+"Visible in Advanced Search","استفاده در جستجوی پیشرفته",module,Magento_Catalog
+"Comparable on Storefront","در نمای قابل مقایسه",module,Magento_Catalog
 "Use for Promo Rule Conditions","استفاده برای شرایط قانون تبلیغ",module,Magento_Catalog
 "Enable WYSIWYG","WYSIWYG ممکن",module,Magento_Catalog
+"Allow HTML Tags on Storefront","اجازه برچسب ها HTML  در فروشگاه",module,Magento_Catalog
+"Visible on Catalog Pages on Storefront","قابل مشاهده در صفحات کاتالوگ در فروشگاه",module,Magento_Catalog
 "Used in Product Listing","استفاده شده در لیست کردن محصولات",module,Magento_Catalog
+"Depends on design theme.","وابسته به طرح تم.",module,Magento_Catalog
 "Used for Sorting in Product Listing","استفاده شده برای مرتب سازی در لیست کردن محصولات",module,Magento_Catalog
 "Media Image","تصویر مدیا",module,Magento_Catalog
 Gallery,گالری,module,Magento_Catalog
@@ -460,32 +521,51 @@ Integer,"عدد صحیح",module,Magento_Catalog
 "Globally Editable","قابل ویرایش به طور سراسری",module,Magento_Catalog
 "Attribute Information","اطلاعات ویژگی",module,Magento_Catalog
 Properties,مشخصات,module,Magento_Catalog
+"Manage Labels","مدیریت برچسب ها",module,Magento_Catalog
 Visible,نمایان,module,Magento_Catalog
+"Web Site","وب سایت",module,Magento_Catalog
 Searchable,"قابل جستجو",module,Magento_Catalog
 Comparable,"قابل مقایسه",module,Magento_Catalog
 "Delete Selected Group","حذف گروه انتخاب شده",module,Magento_Catalog
 "Add New","افزودن جدید",module,Magento_Catalog
 Back,بازگشت,module,Magento_Catalog
 Reset,بازنشانی,module,Magento_Catalog
+"You are about to delete all products in this attribute set. Are you sure you want to do that?","شما در حال حذف تمام محصولات در این مجموعه ویژگی هستید. آیا می خواهید برای انجام این کار کنید?",module,Magento_Catalog
 "New Set Name","نام مجموعه‌ی جدید",module,Magento_Catalog
+"Edit Attribute Set '%1'","ویرایش ویژگی ها",module,Magento_Catalog
 Empty,خالی,module,Magento_Catalog
 "Add Attribute","افزودن ویژگی",module,Magento_Catalog
 "Add New Group","افزودن گروه جدید",module,Magento_Catalog
 "Add Group","افزودن گروه",module,Magento_Catalog
+"Edit Attribute Set Name","ویرایش ویژگی نام مجموعه",module,Magento_Catalog
+"For internal use","برای استفاده داخلی",module,Magento_Catalog
 "Based On","بر اساس",module,Magento_Catalog
 "Add New Attribute Set","افزودن مجموعه ویژگی جدید",module,Magento_Catalog
+"Add Attribute Set","افزودن مجموعه ویژگی جدید",module,Magento_Catalog
 "Attribute Sets","مجموعه ویژگی",module,Magento_Catalog
 "Close Window","بستن پنجره",module,Magento_Catalog
 "New Product","محصول جدید",module,Magento_Catalog
+"Save & Edit","ذخیره & ویرایش",module,Magento_Catalog
+"Save & New","ذخیره و جدید",module,Magento_Catalog
+"Save & Duplicate","ذخیره & تکراری",module,Magento_Catalog
+"Save & Close","ذخیره و بستن",module,Magento_Catalog
 Attributes,وظيفه,module,Magento_Catalog
 Change,تغییر,module,Magento_Catalog
+"Advanced Inventory","موجودی های مدیریت شده",module,Magento_Catalog
 Websites,"وب سایت ها",module,Magento_Catalog
 "Products Information","اطلاعات محصولات",module,Magento_Catalog
+"Create Category","ایجاد دسته جدید",module,Magento_Catalog
+"Category Name","نام دسته‌بندی",module,Magento_Catalog
 "Parent Category","دسته‌ی منشا",module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","اگر هیچ دسته بندی والدین سفارشی وجود نداشته باشد، لطفا از رده والدین(دسته بندی) پیش فرض استفاده کنید. شما می توانید این دسته را در هر زمان در <a href=""٪1"" target=""_blank""> محصولات> دسته بندی </a> </a> اختصاص دهید.",module,Magento_Catalog
+"Price Alert Subscriptions","هشدار اشتراک قیمت",module,Magento_Catalog
+"Stock Alert Subscriptions","هشدار اشتراک موجودی",module,Magento_Catalog
 "There are no customers for this alert.","هیچ مشتری برای این هشدار وجود ندارد.",module,Magento_Catalog
 "First Name",نام,module,Magento_Catalog
 "Last Name","نام خانوادگي",module,Magento_Catalog
 Email,ايميل,module,Magento_Catalog
+"Subscribe Date","تاریخ عضویت",module,Magento_Catalog
+"Last Notified","آخرین اطلاع رسانی",module,Magento_Catalog
 "Send Count","فرستادن شمارش",module,Magento_Catalog
 "New Attribute","ویژگی جدید",module,Magento_Catalog
 Type,نوع,module,Magento_Catalog
@@ -493,6 +573,7 @@ Type,نوع,module,Magento_Catalog
 Status,وضعيت,module,Magento_Catalog
 Visibility,پدیداری,module,Magento_Catalog
 "Add New Option","افزودن گزینه‌ی جدید",module,Magento_Catalog
+"Import Options","گزینه های واردات",module,Magento_Catalog
 "Use Default","استفاده از پيش فرض",module,Magento_Catalog
 Import,"وارد کردن",module,Magento_Catalog
 "Add New Row","افزودن سطر جدید",module,Magento_Catalog
@@ -501,55 +582,137 @@ Import,"وارد کردن",module,Magento_Catalog
 "Default Price","قیمت پیش فرض",module,Magento_Catalog
 "All Websites","همه‌ی وب‌سایت‌ها",module,Magento_Catalog
 "ALL GROUPS","همه‌ی گروه‌ها",module,Magento_Catalog
+"Add Price","اضافه کردن قیمت",module,Magento_Catalog
 "Default Values","مقادیر پیش فرض",module,Magento_Catalog
 "Related Products","محصولات مرتبط",module,Magento_Catalog
 Up-sells,پرفروش‌ها,module,Magento_Catalog
 Cross-sells,"فروش‌های پیشنهادی",module,Magento_Catalog
+"Size for %1","اندازه برای",module,Magento_Catalog
+"Watermark File for %1","پرونده Watermark برای٪ 1",module,Magento_Catalog
+"Position of Watermark for %1","موقعیت علامت گذاری برای٪ 1",module,Magento_Catalog
+"Name in %1","نام در %1",module,Magento_Catalog
 Quantity,تعداد,module,Magento_Catalog
 Edit,ويرايش,module,Magento_Catalog
 "Are you sure?","شما اطمینان دارید؟",module,Magento_Catalog
+"Change Status","تغییر وضعیت",module,Magento_Catalog
 "Update Attributes","به روز رسانی ویژگی‌ها",module,Magento_Catalog
+"start typing to search category","شروع به تایپ کردن در دسته بندی",module,Magento_Catalog
 "New Category","دسته‌ی جدید",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","تصاویر (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","افزودن تصاویر جدید",module,Magento_Catalog
 "Inc. Tax","مالیات شرکت",module,Magento_Catalog
+"Does this have a weight?","این وزن دارد?",module,Magento_Catalog
 Product,محصول,module,Magento_Catalog
 "Notify Low Stock RSS","RSS اخطار موجودی کم",module,Magento_Catalog
 "Low Stock Products","محصولات با موجودی کم",module,Magento_Catalog
+"%1 has reached a quantity of %2.","٪ 1 مقدار به ٪ 2 رسیده است.",module,Magento_Catalog
 Home,خانه,module,Magento_Catalog
 "Go to Home Page","برو به صفحه‌ی اصلی",module,Magento_Catalog
 "Subscribe to RSS Feed","اشتراک برای فید RSS",module,Magento_Catalog
 "Products Comparison List","لیست مقایسه‌ی محصولات",module,Magento_Catalog
+N/A,"(تعریف نشده)",module,Magento_Catalog
 AM,ق.ظ,module,Magento_Catalog
 PM,ب.ظ,module,Magento_Catalog
 "-- Please Select --","-- لطفا انتخاب کنيد --",module,Magento_Catalog
 None,"هیچ یک",module,Magento_Catalog
+"New Products from %1","محصولات جدید از %1",module,Magento_Catalog
 "New Products","محصولات جدید",module,Magento_Catalog
+"%1 - Special Products","محصولات ویژه",module,Magento_Catalog
 "Click for price","برای قیمت کلیک کنید",module,Magento_Catalog
+"Special Expires On: %1","انقضای خاص در: %1",module,Magento_Catalog
+"Price: %1","قيمت: %1",module,Magento_Catalog
+"Special Price: %1","قیمت ویژه",module,Magento_Catalog
 "Special Products","محصولات ویژه",module,Magento_Catalog
 "Manage Catalog Categories","مدیریت دسته‌های کاتالوگ",module,Magento_Catalog
 "Manage Categories","مدیریت دسته‌ها",module,Magento_Catalog
+"You deleted the category.","شما دسته بندی را حذف کردید.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","اشتباهی رخ داده است برای حذف کردن دسته بندی.دوباره تلاش کنید.",module,Magento_Catalog
 Categories,"دسته ها",module,Magento_Catalog
+"Category is not available for requested store.","طبقه برای فروشگاه درخواست شده در دسترس نیست.",module,Magento_Catalog
+"There was a category move error.","یک خطایی برای جا به جایی دسته بندی وجود دارد.",module,Magento_Catalog
+"You moved the category.","شما دسته بندی را جا به جا کردید.",module,Magento_Catalog
+"Attribute ""%1"" is required.","ویژگی ""%1"" مورد نیاز است.",module,Magento_Catalog
+"You saved the category.","شما دسته بندی را ذخیره کردید.",module,Magento_Catalog
+"Something went wrong while saving the category.","اشتباهی رخ داده است برای حذف کردن دسته بندی. دوباره تلاش کنید.",module,Magento_Catalog
+"Please select products for attributes update.","محصولات برای به روز رسانی ویژگی های را انتخاب کنید.",module,Magento_Catalog
+"Please make sure to define SKU values for all processed products.","لطفا مطمئن شوید که مقادیر SKU را برای همه محصولات فرآوری شده تعریف کنید.",module,Magento_Catalog
+"A total of %1 record(s) were updated.","مجموع %1 record(s) به روز شد.",module,Magento_Catalog
+"Something went wrong while updating the product(s) attributes.","چیزی اشتباه در حالی که به روز رسانی ویژگی های محصول رفت.",module,Magento_Catalog
+"Unable to add attribute","قادر به اضافه کردن ویژگی نمی باشد",module,Magento_Catalog
+"Please, specify attributes","لطفاً ویژگی ها را مشخص کنید",module,Magento_Catalog
 Catalog,فهرست,module,Magento_Catalog
 "Manage Product Attributes","مدیریت ویژگی‌های محصول",module,Magento_Catalog
+"We can't delete the attribute.","ما نمی توانیم ویژگی را حذف کنیم.",module,Magento_Catalog
+"You deleted the product attribute.","ویژگی محصول را حذف کردید.",module,Magento_Catalog
+"We can't find an attribute to delete.","ما نمی توانیم یک ویژگی را برای حذف پیدا کنیم.",module,Magento_Catalog
+"This attribute no longer exists.","این ویژگی دیگر وجود ندارد.",module,Magento_Catalog
 "This attribute cannot be edited.","این ویژگی را نمی‌توان ویرایش کرد.",module,Magento_Catalog
 "Edit Product Attribute","ویرایش ویژگی محصول",module,Magento_Catalog
+"An attribute set named '%1' already exists.","یک ویژگی با این کد از قبل وجود دارد.",module,Magento_Catalog
+"Something went wrong while saving the attribute.","هنگام ذخیره کردن ویژگی، اشتباهی رخ داد ه است.",module,Magento_Catalog
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","مشخصه کد ""٪ 1"" نامعتبر است لطفا از حروف (a-z)، اعداد (0-9) یا زیرخط (_) در این فیلد استفاده کنید، اولین حرف باید یک حرف باشد.",module,Magento_Catalog
+"We can't update the attribute.","ما نمی توانیم ویژگی را به روز کنیم.",module,Magento_Catalog
+"You saved the product attribute.","شما ویژگی محصول را ذخیره کردید.",module,Magento_Catalog
+"An attribute with this code already exists.","یک ویژگی با این کد قبلا وجود دارد.",module,Magento_Catalog
+"An attribute with the same code (%1) already exists.","یک محصول با همان نام از قبل وجود دارد.",module,Magento_Catalog
+"The value of Admin must be unique.","مقدار Admin باید منحصر به فرد باشد.",module,Magento_Catalog
+"The value of Admin scope can't be empty.","مقدار محدوده مدیر نمی تواند خالی باشد.",module,Magento_Catalog
+"You duplicated the product.","محصول شما تکراری می باشد.",module,Magento_Catalog
+"This product doesn't exist.","این محصول دیگر وجود ندارد.",module,Magento_Catalog
+"Invalid product id. Should be numeric value greater than 0","شناسه محصول نامعتبر است مقدار عددی بیشتر از 0 باشد",module,Magento_Catalog
 Products,محصولات,module,Magento_Catalog
 "A group with the same name already exists.","یک گروه با نام یکسان وجود دارد.",module,Magento_Catalog
+"Something went wrong while saving this group.","هنگام ذخیره کردن این گروه، اشتباهی رخ داده است.",module,Magento_Catalog
+"A total of %1 record(s) have been deleted.","تعداد %1 اطلاعیه حذف شد.",module,Magento_Catalog
+"A total of %1 record(s) have been updated.","در مجموع٪ 1 رکورد (ها) حذف شده است.",module,Magento_Catalog
+"Something went wrong while updating the product(s) status.","در هنگام به روزرسانی وضعیت محصول (ها) اشتباهی رخ داده.",module,Magento_Catalog
+"Unable to save product","ذخیره محصول امکانپذیر نیست",module,Magento_Catalog
+"You saved the product.","شما محصول را ذخیره کردید.",module,Magento_Catalog
+"SKU for product %1 has been changed to %2.","SKU برای محصول از ٪ 1 به٪ 2 تغییر کرده است.",module,Magento_Catalog
+"The image cannot be removed as it has been assigned to the other image role","تصویر را نمی توان حذف کرد نقش تصویر به جای دیگر اختصاص داده شده است",module,Magento_Catalog
+"New Attribute Set","مجموعه ویژگی جدید",module,Magento_Catalog
 "The attribute set has been removed.","مجموعه‌ی ویژگی برداشته شد.",module,Magento_Catalog
+"We can't delete this set right now.","اکنون نمی توانیم این مجموعه را حذف کنیم.",module,Magento_Catalog
 "New Set","مجموعه‌ی جدید",module,Magento_Catalog
 "Manage Product Sets","مدیریت مجموعه‌های محصول",module,Magento_Catalog
 "Manage Attribute Sets","مدیریت مجموعه‌های ویژگی",module,Magento_Catalog
 "This attribute set no longer exists.","این مجموعه ویژگی دیگر وجود ندارد.",module,Magento_Catalog
+"You saved the attribute set.","مجموعه ویژگی ذخیره شد.",module,Magento_Catalog
+"Something went wrong while saving the attribute set.","هنگام ذخیره مجموعه ویژگی، اشتباهی رخ داد.",module,Magento_Catalog
+"You added product %1 to the comparison list.","شما یکه محصول به لیست مقایسه اضافه کردید.",module,Magento_Catalog
+"You cleared the comparison list.","لیست مقایسه را پاک کردید.",module,Magento_Catalog
+"Something went wrong  clearing the comparison list.","چیز هایی که اشتباه بودند از لیست مقایسه حذف گردیدند.",module,Magento_Catalog
+"You removed product %1 from the comparison list.","شما محصول٪ 1 را از لیست مقایسه حذف کرده اید.",module,Magento_Catalog
+"1 item","1 مورد",module,Magento_Catalog
+"%1 items","1 مورد",module,Magento_Catalog
+"Are you sure you want to remove this item from your Compare Products list?","آیا مطمئن هستید می خواهید این مورد را از لیست مقایسه محصولات خود حذف کنید?",module,Magento_Catalog
+"Are you sure you want to remove all items from your Compare Products list?","آیا مطمئن هستید می خواهید همه موارد را از لیست مقایسه محصولات خود حذف کنید?",module,Magento_Catalog
+"Invalid attribute %1","%1 ویژگی نامعتبر می باشد",module,Magento_Catalog
 Grid,مشبک,module,Magento_Catalog
 List,فهرست,module,Magento_Catalog
 All,همه,module,Magento_Catalog
+"Bad controller interface for showing product","رابط کنترل کننده بد برای نشان دادن محصول",module,Magento_Catalog
 "Product is not loaded","محصول لود نشده است",module,Magento_Catalog
+"Make sure the To Date is later than or the same as the From Date.","اطمینان حاصل کنید که به تاریخ بعد از آن یا همان تاریخ از تاریخ است.",module,Magento_Catalog
+"Sorry, but we can't find the new parent category you selected.","با عرض پوزش، اما ما نمیتوانیم دسته بندی والدین جدیدی که انتخاب کرده اید را پیدا کنیم.",module,Magento_Catalog
+"Sorry, but we can't find the new category you selected.","با عرض پوزش، اما ما نمیتوانیم دسته جدیدی را که انتخاب کردید پیدا کنیم.",module,Magento_Catalog
+"We can't move the category because the parent category name matches the child category name.","ما نمی توانیم این دسته را جا به جا کنیم زیرا نام دسته والد با نام دسته فرزند مطابقت دارد.",module,Magento_Catalog
+"Something went wrong while getting the image url.","در هنگام دریافت Url تصویر اشتباهی رخ داد.",module,Magento_Catalog
+"Can't delete root category.","ریشه دسته ها را نمی توان حذف کرد.",module,Magento_Catalog
+"The value of attribute ""%1"" must be unique.","مقدار ارزش ""٪ 1"" باید منحصر به فرد باشد.",module,Magento_Catalog
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","ترتیب لیست کردن محصول پیش فرض با، بر روی ترتیب لیست سازی محصول موجود با، وجود ندارد",module,Magento_Catalog
 "No layout updates","بدون به روز رسانی‌های آرایش",module,Magento_Catalog
 "Products only","تنها محصولات",module,Magento_Catalog
 "Static block only","تنها بلاک ایستا",module,Magento_Catalog
 "Static block and products","بلاک ایستا و محصولات",module,Magento_Catalog
+"Please select a static block.","بلوک ثابت را انتخاب کنید.",module,Magento_Catalog
+"Could not save product ""%1"" with position %2 to category %3","محصول ""%1"" با موقعیت %2 به رده %3 نمی توان ذخیره کرد",module,Magento_Catalog
+"Category does not contain specified product","دسته بندی محصول ویژه را شامل نمی شود",module,Magento_Catalog
+"Could not save product ""%product"" with position %position to category %category","نمی توان محصول ""٪ product"" با موقعیت موقعیت٪ به دسته٪ category ذخیره کرد",module,Magento_Catalog
+"Operation do not allow to move a parent category to any of children category","عملیات اجازه نمیدهد که یک دسته از والدین را به یک دسته از خرد منتقل کند",module,Magento_Catalog
+"Could not move category","دسته بندی را نمی توان جا به جا کرد",module,Magento_Catalog
+"Could not save category: %1","نمی توان دسته بندی را ذخیره کرد",module,Magento_Catalog
+"Cannot delete category with id %1","نمیتوان دسته بندی را به همراه id٪ 1 حذف کرد",module,Magento_Catalog
 "-- Please Select a Category --","-- لطفا یک رده را انتخاب نمایید --",module,Magento_Catalog
 "Grid Only","تنها مشبک",module,Magento_Catalog
 "List Only","تنها لیست",module,Magento_Catalog
@@ -560,6 +723,7 @@ All,همه,module,Magento_Catalog
 Manual,دستی,module,Magento_Catalog
 Fixed,ثابت,module,Magento_Catalog
 Percent,درصد,module,Magento_Catalog
+Discount,تخفيف,module,Magento_Catalog
 "-- Please select --","-- لطفا انتخاب نمایید --",module,Magento_Catalog
 "Product Thumbnail Itself","تصویر کوچک محصول از خودش",module,Magento_Catalog
 "Parent Product Thumbnail","تصویر کوچک محصول منشا",module,Magento_Catalog
@@ -572,24 +736,82 @@ Top/Right,بالا/راست,module,Magento_Catalog
 Bottom/Left,پایین/چپ,module,Magento_Catalog
 Bottom/Right,پایین/راست,module,Magento_Catalog
 Center,مرکز,module,Magento_Catalog
+"%1 doesn't extends \Magento\Framework\Model\AbstractModel","٪ 1 گسترش نمی دهد \ Magento \ Framework \ Model \ AbstractModel",module,Magento_Catalog
+"Something went wrong while saving the file(s).","هنگام ذخیره فایل (ها) مشکلی پیش آمد.",module,Magento_Catalog
+"File can not be saved to the destination folder.","فایل را نمی توان به پوشه مقصد ذخیره کرد.",module,Magento_Catalog
+"Unknown EAV indexer type ""%1"".","نام شاخص EAV ناشناخته نوع ""٪ 1"".",module,Magento_Catalog
+"We can't rebuild the index for an undefined product.","ما نمی توانیم شاخص را برای محصول نامشخص بازسازی کنیم.",module,Magento_Catalog
+"Bad value was supplied.","مقدار بدی ذخیره شده است.",module,Magento_Catalog
+"The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module","ماژول کاتالوگ Flat دارای محدودیت٪ 2 $ d قابلیت فیلتراسیون و / یا مرتب سازی است. در حال حاضر٪ 1 $ d از آنها وجود دارد. لطفا برای کاهش از ویژگی های قابل فیلتر بندی / قابل مرتب شدن برای استفاده از این ماژول استفاده کنید",module,Magento_Catalog
+"Unsupported product type ""%1"".","نوع محصول پشتیبانی نشده ""٪ 1"".",module,Magento_Catalog
+"Please correct the category.","لطفا دسته بندی را اصلاح کنید.",module,Magento_Catalog
+"Must be category model instance or its id.","نمونه مدل دسته یا شناسه خود باید باشد.",module,Magento_Catalog
+"The attribute model is not defined.","مدل ویژگی تعریف نشده است.",module,Magento_Catalog
 Category,دسته,module,Magento_Catalog
+"%1 was not found in algorithms","%1 در الگوریتم پیدا نشده است",module,Magento_Catalog
+"%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","٪ 1 گسترش نمی دهد \ Magento \ کاتالوگ \ مدل \ Layer \ Filter \ Dynamic \ AlgorithmInterface",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 گسترش نمی دهد\Magento\Catalog\Model\Layer\Filter\AbstractFilter",module,Magento_Catalog
+"The filter must be an object. Please set the correct filter.","فیلتر باید یک شی است. لطفا فیلتر درست تنظیم کنید.",module,Magento_Catalog
 "Clear Price","پاك كردن قيمت",module,Magento_Catalog
+"%1 and above","و بالاتر",module,Magento_Catalog
 "The filters must be an array.","فیلترها باید هر آرایه‌ای باشند.",module,Magento_Catalog
+"Product was not registered","محصول ثبت نشده است",module,Magento_Catalog
+"Store was not registered","فروشگاه ثبت نشده است",module,Magento_Catalog
+"Group price must be a number greater than 0.","گروه قيمت شماره باید بزرگتر از 0 باشد.",module,Magento_Catalog
+"Media Gallery converter should be an instance of EntryConverterInterface.","مبدل رسانه گالری باید یک نمونه از EntryConverterInterface باشد.",module,Magento_Catalog
+"There is no MediaGalleryEntryConverter for given type","MediaGalleryEntryConverter برای نوع داده شده وجود ندارد",module,Magento_Catalog
 "Please enter a number 0 or greater in this field.","لطفا شماره 0 و یا بیشتر در این زمینه را وارد کنید.",module,Magento_Catalog
+"The value of attribute ""%1"" must be set","مقدار مشخصه ""٪ 1"" باید تنظیم شود",module,Magento_Catalog
+"SKU length should be %1 characters maximum.","طول SKU باید حداکثر٪ 1 کاراکتر باشد.",module,Magento_Catalog
 "Please enter a valid number in this field.","لطفا در این فیلد یک شماره‌ی معتبر وارد نمایید.",module,Magento_Catalog
+"We found a duplicate website, tier price, customer group and quantity.","ما یک وب سایت تکراری، قیمت تکراری، گروه مشتری و کمیت یافتیم.",module,Magento_Catalog
+"Percentage value must be a number between 0 and 100.","مقدار درصد باید یک عدد بین 0 تا 100 باشد.",module,Magento_Catalog
+"Invalid option id %1","گزینه غیر معتبر شناسه %1",module,Magento_Catalog
+"Can not create attribute set based on non product attribute set.","نمی توان مجموعه ویژگی ایجاد شده بر اساس مجموعه ویژگی های غیر محصول ایجاد کرد.",module,Magento_Catalog
+"Can not create attribute set based on not existing attribute set","نمی توان مجموعه ویژگی را بر اساس مجموعه ویژگی های موجود ایجاد کرد",module,Magento_Catalog
+"Provided Attribute set non product Attribute set.","مجموعه ویژگی مشخص نشده محصول مشخص شده ارائه شده است.",module,Magento_Catalog
 "Use config","استفاده از پیکربندی",module,Magento_Catalog
 Enabled,فعال,module,Magento_Catalog
 Disabled,"غير فعال",module,Magento_Catalog
+"Attribute Set already exists.","ویژگی نام از قبل وجود دارد.",module,Magento_Catalog
+"We couldn't copy file %1. Please delete media with non-existing images and try again.","ما نمیتوانیم فایل٪ 1 را کپی کنیم. لطفا رسانه ها را با تصاویر موجود حذف کنید و دوباره امتحان کنید.",module,Magento_Catalog
+"The image content is not valid.","محتوای تصویر معتبر نیست.",module,Magento_Catalog
+"Cannot save product.","محصول را نمی توان ذخیره کرد.",module,Magento_Catalog
+"Failed to save new media gallery entry.","رسانه های جدید گالری مطلب ذخیره نشد.",module,Magento_Catalog
+"There is no image with provided ID.","هیچ تصویر با شناسه ارائه شده وجود ندارد.",module,Magento_Catalog
+"Such product doesn't exist","محصول مورد نظر وجود ندارد",module,Magento_Catalog
+"Such image doesn't exist","چنین تصویری وجود ندارد",module,Magento_Catalog
+"The image does not exist.","تصویر وجود ندارد.",module,Magento_Catalog
+"Please correct the image file type.","لطفا نوع فایل تصویر را اصلاح کنید.",module,Magento_Catalog
+"We couldn't move this file: %1.","ما نمی توانیم این فایل را انتقال دهیم:٪ 1.",module,Magento_Catalog
+"The option type to get group instance is incorrect.","نوع گزینه برای دریافت مثال گروه نادرست است.",module,Magento_Catalog
 "Select type options required values rows.","گزینه‌های نوع خطوط مقادیر الزامی را انتخاب کنید.",module,Magento_Catalog
+"ProductSku should be specified","Sku محصول باید مشخص شود",module,Magento_Catalog
+"Could not remove custom option","گزینه سفارشی را نمی توان حذف کنیم",module,Magento_Catalog
 "Please specify date required option(s).","لطفا گزینه(ها)ی الزامی تاریخ را مشخص نمایید.",module,Magento_Catalog
 "Please specify time required option(s).","لطفا گزینه(ها)ی الزامی زمان را مشخص نمایید.",module,Magento_Catalog
+"Please specify product's required option(s).","لطفا گزینه(ها) ی محصول را مشخص نمایید.",module,Magento_Catalog
+"The option instance type in options group is incorrect.","نوع نمونه گزینه در گروه گزینه نادرست است.",module,Magento_Catalog
+"The product instance type in options group is incorrect.","نوع نمونه محصول در گروه گزینه نادرست است.",module,Magento_Catalog
+"We can't add the product to the cart because of an option validation issue.","ما نمی توانیم محصول را به سبد خرید اضافه کنیم زیرا یک مسئله اعتبارسنجی وجود دارد.",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType","%1 گسترش نمی دهد \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
+"File '%1' is not an image.","فایل '٪ 1' تصویر نیست.",module,Magento_Catalog
 "Some of the selected item options are not currently available.","برخی از گزینه های انتخاب شده اکنون موجود نیستند.",module,Magento_Catalog
+"This product doesn't have tier price","این محصول دارای قیمت پایه ای نیست",module,Magento_Catalog
+"Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","قیمت محصول گروهی با چنین اطلاعاتی وجود ندارد: customerGroupId = '٪ 1'، website =٪ 2، qty =٪ 3",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 گسترش نمی دهد \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 گسترش نمی دهد \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
 "Not Visible Individually","منحصرا نا پیدا",module,Magento_Catalog
 Search,جستجو,module,Magento_Catalog
 "Catalog, Search","کاتالوگ، جستجو",module,Magento_Catalog
+"Product %1 doesn't have linked %2 as %3","محصول %1 هیچ گونه ارتباطی ٪ 2 به ٪ 3 نداشته",module,Magento_Catalog
+"Requested product doesn't exist","محصول مورد نظر وجود ندارد",module,Magento_Catalog
+"Attribute '%1' is locked. %2","ویژگی '%1' قفل شده است. %2",module,Magento_Catalog
 "A product type is not defined for the indexer.","نوع محصولی برای فهرست نویس تعریف نشده است.",module,Magento_Catalog
+"%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice را گسترش نمی دهد",module,Magento_Catalog
 "Multiple Select","چند انتخابی",module,Magento_Catalog
 Dropdown,کشویی,module,Magento_Catalog
+"%1 doesn't extend \Magento\Framework\Filter\Template","٪ 1 گسترش نمی دهد \ Magento \ Framework \ Model \ AbstractModel",module,Magento_Catalog
 "As low as","از حداقل",module,Magento_Catalog
 Images,تصاویر,module,Magento_Catalog
 "Customer Group","گروه مشتری",module,Magento_Catalog
@@ -607,13 +829,17 @@ Thumbnail,"تصویر بندانگشتی",module,Magento_Catalog
 Actions,کنش‌ها,module,Magento_Catalog
 "Collapse All","بستن همه",module,Magento_Catalog
 "Expand All","بازکردن همه",module,Magento_Catalog
+"Please confirm site switching. All data that hasn't been saved will be lost.","لطفا سوئیچینگ سایت را تایید کنید تمام داده هایی که ذخیره نشده اند از بین خواهند رفت.",module,Magento_Catalog
 "Use Default Value","از مقدار پیش فرض استفاده کنید",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","مدیریت عناوین (اندازه، رنگ، و غیره)",module,Magento_Catalog
 "Is Default","پیش فرض است",module,Magento_Catalog
 Groups,گروه‌ها,module,Magento_Catalog
 "Unassigned Attributes","ویژگی‌های اختصاص نیافته",module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","این گروه محتوی ویژگی‌های سیستمی است. لطفا ویژگی‌های سیستمی را به گروه دیگری منتقل نموده و دوباره سعی نمایید.",module,Magento_Catalog
+"Sorry, we're unable to complete this request.","با عرض پوزش، ما قادر به تکمیل این درخواست نیستیم.",module,Magento_Catalog
+"You can't remove attributes from this attribute set.","شما قادر به حذف ویژگی از این مجموعه ویژگی نیستید.",module,Magento_Catalog
 "Custom Options","گزینه‌های سفارشی",module,Magento_Catalog
+"The field isn't complete.","فیلد کامل نیست.",module,Magento_Catalog
 "Maximum image width","بیشینه‌ی پهنای تصویر",module,Magento_Catalog
 "Maximum image height","بیشینه‌ی بلندی تصویر",module,Magento_Catalog
 "Maximum number of characters:","بیشینه‌ی تعداد کاراکترها:",module,Magento_Catalog
@@ -631,6 +857,7 @@ Backorders,"برگشت سفارش",module,Magento_Catalog
 "Out of Stock","موجود نیست",module,Magento_Catalog
 "Add Product To Websites","افزودن محصول به وب‌سایت",module,Magento_Catalog
 "Remove Product From Websites","برداشتن محصول از وب‌سایت‌ها",module,Magento_Catalog
+"We can't save custom-defined options for bundles with dynamic pricing.","ما نمی توانیم گزینه های سفارشی تعریف شده برای بسته های با قیمت گذاری پویا را ذخیره کنیم.",module,Magento_Catalog
 "Input Type","نوع ورودی",module,Magento_Catalog
 Action,اقدام,module,Magento_Catalog
 "and above","و بالاتر",module,Magento_Catalog
@@ -656,6 +883,7 @@ Compare,مقایسه,module,Magento_Catalog
 "Clear All","پاک کردن همه",module,Magento_Catalog
 Prev,قبلی,module,Magento_Catalog
 Next,بعدی,module,Magento_Catalog
+"We can't find products matching the selection.","هیچ محصولی مطابق با انتخاب وجود ندارد.",module,Magento_Catalog
 "Learn More","بیشتر بدانید",module,Magento_Catalog
 "Add to Compare","افزودن به مقایسه",module,Magento_Catalog
 "Check items to add to the cart or","بررسی آیتم‌ها برای افزودن به سبد یا",module,Magento_Catalog
@@ -1036,6 +1264,22 @@ Gender,جنسیت,module,Magento_Customer
 Name,نام,module,Magento_Customer
 "Tax/VAT number","شماره‌ی مالیاتی",module,Magento_Customer
 "Phone Number","شماره تلفن",module,Magento_Customer
+"Import failed: %1","واردکردن انجام نشد!",module,Magento_Deploy
+"Class for type ""%1"" was not declared","کلاس برای نوع ""٪ 1"" اعلام نشده است",module,Magento_Deploy
+"%1 does not implement %2","%1 %2 را اجرا نمی",module,Magento_Deploy
+"File app/etc/%1 can't be read. Please check if it exists and has read permissions.","فایل app/و غیره/%1 خوانده نمی شود. لطفا اگر آن وجود دارد و مجوزهای خواندن است.",module,Magento_Deploy
+"There are no sensitive configurations to fill","هیچ تنظیمات حساس برای پر کردن وجود دارد",module,Magento_Deploy
+"Value can't be empty","مسیر نمی تواند خالی باشد",module,Magento_Deploy
+"A configuration with this path does not exist or is not sensitive","یک پیکربندی با این مسیر وجود ندارد و یا حساس است",module,Magento_Deploy
+"Cannot switch into given mode ""%1""","نمی تواند تبدیل به حالت داده شده ""%1""",module,Magento_Deploy
+"Wrong logger interface specified.","رابط کاربری اشتباه مشخص شده است.",module,Magento_Deploy
+"Hash has not been saved.","هش ذخیره نشده است.",module,Magento_Deploy
+"The configuration file has changed. Run app:config:import or setup:upgrade command to synchronize configuration.","فایل پیکربندی تغییر کرده است. فرمان app:config:import یا راه اندازی: ارتقا به پیکربندی همگام سازی را اجرا کنید.",module,Magento_Deploy
+"Wrong type specified: '%1'","نوع مشخص شده اشتباه: '%1'",module,Magento_Deploy
+"Wrong queue type specified.","نوع اشتباه صف مشخص شده.",module,Magento_Deploy
+"Wrong deploy strategy type: %1","اشتباه استقرار استراتژی نوع: %1",module,Magento_Deploy
+"Some error","خطای همگام‌سازی",module,Magento_Deploy
+"some message","برخی از پیام",module,Magento_Deploy
 Pounds,پوند,module,Magento_Dhl
 Kilograms,کیلوگرم,module,Magento_Dhl
 Inches,اینچ,module,Magento_Dhl
@@ -3151,6 +3395,7 @@ Back,بازگشت,module,Magento_Wishlist
 "Email addresses, separated by commas","آدرس‌های ایمیل، جدا شده با کاما",module,Magento_Wishlist
 "Last Added Items","آخرین آیتم‌های افزوده شده",module,Magento_Wishlist
 "Remove This Item","برداشتن این آیتم",module,Magento_Wishlist
+"Now Shopping by","خرید در حال حاضر توسط",theme,frontend/Magento/luma
 Previous,قبلی,theme,frontend/Magento/luma
 Remove,برداشتن,theme,frontend/Magento/luma
 "Remove This Item","برداشتن این آیتم",theme,frontend/Magento/luma
@@ -3196,14 +3441,29 @@ Delete,حذف,module,Magento_GiftMessage
 Assign,"اختصاص دادن",module,Magento_Ui
 Options,"گزينه ها",module,Magento_Ui
 Filters,فیلترها,module,Magento_Ui
+"Welcome to %store_name","خوش آمدید به %{section_name}",theme,frontend/Magento/luma
 Email:,ایمیل:,theme,frontend/Magento/luma
 Password:,"کلمه عبور:",theme,frontend/Magento/luma
+"Quick Checkout","پرداخت سریع",theme,frontend/Magento/luma
 "Order Status","وضعيت سفارش",theme,frontend/Magento/luma
 "Manage Addresses","مدیریت آدرس‌ها",theme,frontend/Magento/luma
 "Order History","پیشینه‌ی سفارش",theme,frontend/Magento/luma
+Footer,فوتر,theme,frontend/Magento/luma
+"About Us","درباره ما",theme,frontend/Magento/luma
+"Customer Service","خدمات مشتری",theme,frontend/Magento/luma
 "Payment Method","روش پرداخت",theme,frontend/Magento/luma
 "Shipping Method","روش ارسال",theme,frontend/Magento/luma
+"Your %store_name order confirmation","سفارش٪ store_name تایید شده",theme,frontend/Magento/luma
+"%customer_name,","٪نام مشتری،",theme,frontend/Magento/luma
+"Update to your %store_name order","حمل و نقل فروشگاه٪ store_name را به روزرسانی کنید",theme,frontend/Magento/luma
+"Your %store_name order has shipped","سفارش شما ٪ store_name ارسال شده است",theme,frontend/Magento/luma
+"Your Shipment #%shipment_id for Order #%order_id","حمل و نقل شما #٪ shipment_id برای سفارش #٪ order_id",theme,frontend/Magento/luma
+"Update to your %store_name shipment","حمل و نقل فروشگاه٪ store_name را به روزرسانی کنید",theme,frontend/Magento/luma
+"We don't recognize or support this file extension type.","ما نمی توانیم این نوع فایل را شناسایی یا پشتیبانی کنیم.",module,Magento_Backend
+"Warning message","پیام هشدار",module,Magento_Backend
+"This operation can take a long time","این عملیات می تواند کمی زمان ببرد",module,Magento_Backend
 Submit,ارایه,module,Magento_Catalog
+"We don't recognize or support this file extension type.","ما نمی توانیم این نوع فایل را شناسایی یا پشتیبانی کنیم.",module,Magento_Catalog
 "Configure Product","پیکربندی محصول",module,Magento_Catalog
 OK,قبول,module,Magento_Catalog
 "Please add rows to option.","لطفا خطوط را به گزینه اضافه نمایید.",module,Magento_Catalog
@@ -3285,6 +3545,7 @@ Debug,"اشکال زدايي کردن",module,Magento_Authorizenet
 Content,محتوا,module,Magento_Backend
 Design,طراحی,module,Magento_Backend
 Schedule,"زمان بندی",module,Magento_Backend
+"Content translation","ترجمه مطالب",module,Magento_Backend
 Settings,تنظیمات,module,Magento_Backend
 Attributes,وظيفه,module,Magento_Backend
 "Magento Connect","اتصال مجنتو",module,Magento_Backend
@@ -3407,6 +3668,7 @@ Type,نوع,module,Magento_Braintree
 Status,وضعيت,module,Magento_Bundle
 Thumbnail,"تصویر بندانگشتی",module,Magento_Bundle
 Type,نوع,module,Magento_Bundle
+"Special Price","قیمت ویژه",module,Magento_Bundle
 CAPTCHA,كپچا,module,Magento_Captcha
 "Enable CAPTCHA in Admin","فعال كردن كپچا در مديريت",module,Magento_Captcha
 Font,فونت,module,Magento_Captcha
@@ -3454,6 +3716,7 @@ Priority,اولویت,module,Magento_CatalogRule
 Actions,کنش‌ها,module,Magento_CatalogRule
 Apply,اعمال,module,Magento_CatalogRule
 "Discount Amount","مبلغ تخفیف",module,Magento_CatalogRule
+"Discard subsequent rules","قوانین بعدی را حذف کنید",module,Magento_CatalogRule
 Yes,بله,module,Magento_CatalogRule
 No,خیر,module,Magento_CatalogRule
 "Catalog Search","جستجوی کاتالوگ",module,Magento_CatalogSearch
@@ -3473,6 +3736,8 @@ Template,قالب,module,Magento_CatalogWidget
 Conditions,شرایط,module,Magento_CatalogWidget
 Inventory,موجودی,module,Magento_Catalog
 "Catalog Section","بخش کاتالوگ",module,Magento_Catalog
+Main,اصلی,module,Magento_Catalog
+"Custom image","تصویر سفارشی",module,Magento_Catalog
 "List Mode","سبک لیستی",module,Magento_Catalog
 "Products per Page on Grid Allowed Values","محصولات بر صفحه در مقادیر مجاز مشبک",module,Magento_Catalog
 Comma-separated.,"جدا شده با کاما.",module,Magento_Catalog
@@ -4394,3 +4659,6 @@ Action,اقدام,module,Magento_Wishlist
 Configure,پیکربندی,module,Magento_Wishlist
 Delete,حذف,module,Magento_Wishlist
 "Product Details and Comment","جزئیات محصول و نظر",module,Magento_Wishlist
+"Account Dashboard","داشبورد حساب",theme,frontend/Magento/luma
+"Address Book","دفترچه یادداشت",theme,frontend/Magento/luma
+"Account Information","اطلاعات حساب کاربری",theme,frontend/Magento/luma
