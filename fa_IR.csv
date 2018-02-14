@@ -208,7 +208,6 @@ System,سيستم,module,Magento_Backend
 YTD,"آغاز سال تا کنون",module,Magento_Backend
 2YTD,"2 سال گذشته تا کنون",module,Magento_Backend
 Order,سفارش,module,Magento_Backend
-"Access denied","دسترسی ممنوع شده",module,Magento_Backend
 Username,"نام کاربری",module,Magento_Backend
 Password,"رمز عبور",module,Magento_Backend
 "No Data Found","داده‌ای یافت نشد",module,Magento_Backend
@@ -3460,8 +3459,6 @@ Footer,فوتر,theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","حمل و نقل شما #٪ shipment_id برای سفارش #٪ order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","حمل و نقل فروشگاه٪ store_name را به روزرسانی کنید",theme,frontend/Magento/luma
 "We don't recognize or support this file extension type.","ما نمی توانیم این نوع فایل را شناسایی یا پشتیبانی کنیم.",module,Magento_Backend
-"Warning message","پیام هشدار",module,Magento_Backend
-"This operation can take a long time","این عملیات می تواند کمی زمان ببرد",module,Magento_Backend
 Submit,ارایه,module,Magento_Catalog
 "We don't recognize or support this file extension type.","ما نمی توانیم این نوع فایل را شناسایی یا پشتیبانی کنیم.",module,Magento_Catalog
 "Configure Product","پیکربندی محصول",module,Magento_Catalog
@@ -3545,7 +3542,6 @@ Debug,"اشکال زدايي کردن",module,Magento_Authorizenet
 Content,محتوا,module,Magento_Backend
 Design,طراحی,module,Magento_Backend
 Schedule,"زمان بندی",module,Magento_Backend
-"Content translation","ترجمه مطالب",module,Magento_Backend
 Settings,تنظیمات,module,Magento_Backend
 Attributes,وظيفه,module,Magento_Backend
 "Magento Connect","اتصال مجنتو",module,Magento_Backend
@@ -3668,7 +3664,6 @@ Type,نوع,module,Magento_Braintree
 Status,وضعيت,module,Magento_Bundle
 Thumbnail,"تصویر بندانگشتی",module,Magento_Bundle
 Type,نوع,module,Magento_Bundle
-"Special Price","قیمت ویژه",module,Magento_Bundle
 CAPTCHA,كپچا,module,Magento_Captcha
 "Enable CAPTCHA in Admin","فعال كردن كپچا در مديريت",module,Magento_Captcha
 Font,فونت,module,Magento_Captcha
