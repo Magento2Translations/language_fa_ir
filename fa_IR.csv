@@ -1459,7 +1459,7 @@ WARNING:,اخطار:,module,Magento_Directory
 Currency,ارز,module,Magento_Directory
 "Your current currency is: %1.","ارز فعلی شما:%1 است.",module,Magento_Directory
 Continue,ادامه,module,Magento_Directory
-"Downloadable Information","اطلاعات دانلود",module,Magento_Downloadable
+"Downloadable Information","اطلاعات قابل دانلود",module,Magento_Downloadable
 "Upload Files","آپلود فایل",module,Magento_Downloadable
 "All Files","همه‌ی فایل‌ها",module,Magento_Downloadable
 Unlimited,"نا محدود",module,Magento_Downloadable
