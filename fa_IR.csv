@@ -2255,7 +2255,7 @@ Continue,ادامه,module,Magento_Directory
 "File directory '%1' is not readable.","دایرکتوری فایل '%1' قابل خواندن نیست.",module,Magento_DownloadableImportExport
 "File directory '%1' is not writable.","دایرکتوری فایل «%1» قابل نوشتن نیست.",module,Magento_DownloadableImportExport
 Error,خطا,module,Magento_DownloadableImportExport
-"Downloadable Information","اطلاعات دانلود",module,Magento_Downloadable
+"Downloadable Information","اطلاعات قابل دانلود",module,Magento_Downloadable
 "Add New Link","افزودن لینک جدید",module,Magento_Downloadable
 "Upload Files","آپلود فایل",module,Magento_Downloadable
 "All Files","همه‌ی فایل‌ها",module,Magento_Downloadable
